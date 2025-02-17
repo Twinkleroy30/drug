@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Medical_History,Drug_Name,Dosage_mg,Treatment_Duration_days,Effectiveness_%,Side_Effects,Disease_Type,Genetic_Marker,Response_to_Treatment,Success_Rate_%
+P00001,26,Male,Cancer,DrugD,63,25,0.14989652906918227,Fatigue,Breast Cancer,MarkerB,Negative,74.450670342244
+P00002,75,Male,Diabetes,DrugD,74,19,16.50273853463262,None,Lung Cancer,MarkerD,Positive,57.17084070740822
+P00003,57,Female,Cancer,DrugB,164,16,96.99657044562869,Dizziness,Breast Cancer,MarkerC,Negative,89.78001401881653
+P00004,43,Female,Diabetes,DrugB,350,26,99.37419545048685,Fatigue,Breast Cancer,MarkerC,Negative,50.0062331369307
+P00005,30,Male,Cancer,DrugC,195,22,84.84654869244554,None,Lung Cancer,MarkerC,Negative,65.03207151649377
+P00006,41,Male,Diabetes,DrugD,233,36,61.388837714580625,Dizziness,Breast Cancer,MarkerD,Positive,80.25445806082952
+P00007,53,Male,None,DrugA,67,46,17.945977800127487,Fatigue,Heart Disease,MarkerC,Positive,91.08672308345936
+P00008,60,Male,Hypertension,DrugC,144,6,97.30139152649586,None,Breast Cancer,MarkerD,Positive,96.3680306504506
+P00009,84,Female,Cancer,DrugD,440,29,91.62659800128824,None,Breast Cancer,MarkerB,Positive,93.3953882804567
+P00010,85,Female,None,DrugB,287,8,34.272537914425286,Nausea,Heart Disease,MarkerB,Negative,81.34799513841544
+P00011,49,Male,None,DrugA,421,45,19.120475808639668,Dizziness,Lung Cancer,MarkerD,Positive,98.27207745971755
+P00012,50,Male,Diabetes,DrugD,308,54,21.307193065962615,Nausea,Diabetes,MarkerD,Negative,92.61539733923297
+P00013,40,Male,Cancer,DrugB,191,39,25.97725835359299,None,Breast Cancer,MarkerB,Negative,54.17370512740525
+P00014,83,Male,None,DrugA,202,28,62.13300404300755,Nausea,Breast Cancer,MarkerA,Positive,74.14083639009743
+P00015,64,Female,None,DrugC,212,54,83.19874371729499,Fatigue,Breast Cancer,MarkerD,Negative,61.32817884969876
+P00016,75,Male,Cancer,DrugB,334,36,83.27287288188967,Fatigue,Diabetes,MarkerC,Negative,52.58722344140795
+P00017,55,Male,Diabetes,DrugB,307,37,18.222957909384174,Dizziness,Lung Cancer,MarkerD,Positive,73.27988342191853
+P00018,28,Male,Hypertension,DrugB,198,54,79.73396278963034,Dizziness,Heart Disease,MarkerA,Positive,85.43918350834433
+P00019,45,Male,Cancer,DrugC,416,24,37.453600277220836,Nausea,Lung Cancer,MarkerA,Positive,56.776030196797414
+P00020,36,Male,None,DrugD,351,17,42.96314442661364,Dizziness,Lung Cancer,MarkerA,Negative,92.84940942362394
+P00021,62,Male,Hypertension,DrugA,291,43,56.10297262977859,Nausea,Heart Disease,MarkerA,Positive,70.85321350879751
+P00022,59,Female,None,DrugC,415,40,69.67234482450661,None,Lung Cancer,MarkerB,Negative,72.3760179594236
+P00023,20,Male,Diabetes,DrugC,242,59,63.08254344774621,Fatigue,Diabetes,MarkerA,Negative,95.1118247547127
+P00024,20,Male,None,DrugA,254,37,49.8925734442883,Fatigue,Lung Cancer,MarkerD,Negative,86.25159531941847
+P00025,80,Male,Cancer,DrugC,220,49,49.39761090491043,Nausea,Diabetes,MarkerB,Negative,95.41693995476953
+P00026,46,Male,Hypertension,DrugC,212,41,99.28265572402725,Dizziness,Breast Cancer,MarkerD,Negative,90.9371805124368
+P00027,49,Female,Hypertension,DrugA,257,29,31.42256024144594,Fatigue,Breast Cancer,MarkerC,Positive,50.619163180536084
+P00028,76,Male,Cancer,DrugD,483,47,89.33162751218568,Nausea,Lung Cancer,MarkerD,Negative,98.44205982441102
+P00029,80,Female,Diabetes,DrugD,343,24,52.158310347188284,Nausea,Lung Cancer,MarkerB,Positive,70.56864888037325
+P00030,40,Female,Diabetes,DrugD,347,25,67.72467783350132,Dizziness,Lung Cancer,MarkerC,Positive,73.2421030892612
+P00031,60,Female,None,DrugC,248,44,34.13402599441119,Dizziness,Diabetes,MarkerD,Positive,63.74276742674523
+P00032,22,Male,Diabetes,DrugC,102,59,39.42779978280059,Dizziness,Diabetes,MarkerC,Negative,65.88951578919078
+P00033,47,Female,Hypertension,DrugD,498,28,2.6170746149802304,Dizziness,Heart Disease,MarkerD,Positive,51.88027565702318
+P00034,63,Female,Diabetes,DrugB,181,57,11.720156540725934,Dizziness,Heart Disease,MarkerA,Negative,69.12473289730123
+P00035,53,Female,Diabetes,DrugA,81,28,1.450708063727324,None,Diabetes,MarkerA,Positive,79.14023861352055
+P00036,49,Male,Diabetes,DrugB,164,17,57.58125272805553,Dizziness,Lung Cancer,MarkerD,Positive,73.48992696507268
+P00037,71,Male,None,DrugA,320,55,26.9810153544794,Fatigue,Lung Cancer,MarkerC,Negative,63.88263266004364
+P00038,75,Female,Hypertension,DrugB,375,25,89.70375253767223,Nausea,Breast Cancer,MarkerB,Negative,66.67054400065693
+P00039,77,Female,Cancer,DrugB,487,5,27.819258320920813,Dizziness,Diabetes,MarkerA,Positive,93.7173213328596
+P00040,67,Male,Cancer,DrugB,102,33,44.71504260597412,Fatigue,Diabetes,MarkerA,Negative,67.07387011154096
+P00041,61,Male,None,DrugB,295,52,44.070674751002294,None,Lung Cancer,MarkerB,Negative,70.3162377926369
+P00042,47,Male,Hypertension,DrugB,58,19,80.1819037637323,Dizziness,Breast Cancer,MarkerD,Negative,54.07037271538651
+P00043,81,Female,Cancer,DrugA,263,48,37.78764777137069,Dizziness,Breast Cancer,MarkerD,Negative,65.42653787529136
+P00044,30,Female,Hypertension,DrugC,135,17,17.42602649777948,Fatigue,Breast Cancer,MarkerB,Negative,57.20414883142884
+P00045,66,Male,Hypertension,DrugD,292,53,43.48895955349927,Fatigue,Diabetes,MarkerC,Negative,63.76134737546866
+P00046,47,Female,None,DrugB,298,26,55.73560637674506,Dizziness,Diabetes,MarkerD,Positive,98.44917208700548
+P00047,38,Male,Cancer,DrugA,107,47,36.357212483385396,Fatigue,Breast Cancer,MarkerB,Negative,76.71905712272266
+P00048,25,Male,Hypertension,DrugA,175,6,93.07693366667131,Dizziness,Breast Cancer,MarkerC,Positive,74.62863583110357
+P00049,69,Female,Diabetes,DrugD,314,23,53.42153724871464,None,Lung Cancer,MarkerA,Positive,70.25162836821218
+P00050,88,Male,Cancer,DrugC,245,38,41.073613863373446,Dizziness,Diabetes,MarkerD,Positive,73.27448141889174
+P00051,81,Female,None,DrugD,199,38,32.21039177274408,Fatigue,Lung Cancer,MarkerB,Positive,52.57781173393871
+P00052,89,Male,Cancer,DrugD,392,48,51.50474582012999,Fatigue,Breast Cancer,MarkerD,Negative,61.855052185948736
+P00053,64,Male,Cancer,DrugC,402,31,69.28336588018307,Fatigue,Breast Cancer,MarkerB,Positive,94.14865756404163
+P00054,39,Male,Hypertension,DrugA,374,35,99.59338229998382,None,Diabetes,MarkerD,Positive,80.08785645148592
+P00055,44,Male,None,DrugC,244,12,89.9454481385148,Nausea,Breast Cancer,MarkerB,Negative,73.9200421949396
+P00056,41,Female,Hypertension,DrugD,442,12,15.438794532869016,None,Breast Cancer,MarkerC,Positive,85.078022271283
+P00057,55,Male,Cancer,DrugA,298,42,96.90424477809081,Nausea,Heart Disease,MarkerD,Negative,79.6641504046599
+P00058,64,Female,Diabetes,DrugD,294,21,56.43386539957935,None,Heart Disease,MarkerB,Negative,82.05135263553362
+P00059,54,Female,Hypertension,DrugD,296,7,30.48206469631294,Nausea,Lung Cancer,MarkerC,Negative,51.887230494836764
+P00060,52,Male,Cancer,DrugC,436,23,96.06962306857044,Nausea,Lung Cancer,MarkerB,Negative,68.9142479652742
+P00061,66,Female,None,DrugD,116,14,47.932418211202496,Fatigue,Heart Disease,MarkerA,Negative,98.516004150638
+P00062,59,Female,Diabetes,DrugD,221,8,25.69045651789962,Nausea,Lung Cancer,MarkerD,Positive,76.84784899926092
+P00063,79,Female,Diabetes,DrugA,411,51,40.31613699716659,Dizziness,Lung Cancer,MarkerC,Positive,53.79041550140584
+P00064,71,Female,Cancer,DrugA,430,40,57.610662679664514,Fatigue,Heart Disease,MarkerA,Positive,72.30978938694366
+P00065,50,Male,Cancer,DrugD,146,41,23.76815276107075,None,Heart Disease,MarkerA,Positive,68.82282513496621
+P00066,40,Male,Diabetes,DrugB,492,52,43.990824435041134,Fatigue,Heart Disease,MarkerD,Negative,50.39726481820387
+P00067,72,Female,Hypertension,DrugC,323,21,73.56031723529233,None,Diabetes,MarkerB,Negative,52.763360094556624
+P00068,75,Male,Diabetes,DrugD,252,27,6.291981039858252,None,Lung Cancer,MarkerD,Positive,63.894932222200616
+P00069,70,Female,Diabetes,DrugA,99,17,32.94137906805855,Dizziness,Heart Disease,MarkerB,Negative,80.36399558895083
+P00070,50,Male,Hypertension,DrugA,479,53,67.18913343433435,None,Heart Disease,MarkerD,Positive,76.08958963246003
+P00071,32,Female,Hypertension,DrugC,323,38,58.13649132743587,Nausea,Breast Cancer,MarkerB,Negative,94.2439137070287
+P00072,88,Female,Cancer,DrugD,491,15,10.012164421079195,Fatigue,Breast Cancer,MarkerB,Negative,78.10808754772737
+P00073,28,Male,None,DrugC,231,34,95.69381064905832,None,Lung Cancer,MarkerA,Positive,53.87791784366298
+P00074,70,Male,Diabetes,DrugD,469,27,90.07332228011614,None,Heart Disease,MarkerB,Positive,89.57654987231257
+P00075,80,Female,Hypertension,DrugB,150,22,15.788295646808038,Nausea,Lung Cancer,MarkerC,Positive,88.49135873701854
+P00076,31,Male,None,DrugD,247,33,49.136869179097744,Fatigue,Heart Disease,MarkerA,Negative,65.40050239174995
+P00077,61,Female,Cancer,DrugB,492,21,91.31690398082479,Dizziness,Breast Cancer,MarkerA,Positive,52.18798197140171
+P00078,68,Male,None,DrugC,381,53,8.175376491493314,None,Lung Cancer,MarkerD,Negative,92.97763781637235
+P00079,43,Male,None,DrugB,346,36,0.2325567585809929,Fatigue,Heart Disease,MarkerA,Positive,76.31496044826939
+P00080,41,Female,Hypertension,DrugA,417,34,53.30878108386402,Fatigue,Diabetes,MarkerC,Negative,67.19666092187371
+P00081,50,Female,Hypertension,DrugC,182,13,84.94869725110169,Nausea,Lung Cancer,MarkerB,Positive,80.5923286002714
+P00082,45,Male,Diabetes,DrugA,359,31,44.02767256620821,Nausea,Lung Cancer,MarkerD,Positive,86.05864996487674
+P00083,84,Male,None,DrugC,185,28,84.29343228470222,Dizziness,Diabetes,MarkerA,Positive,78.52411078206734
+P00084,78,Female,Hypertension,DrugA,262,58,94.94294907789246,Dizziness,Breast Cancer,MarkerC,Positive,78.41179827487241
+P00085,80,Male,Hypertension,DrugA,400,42,48.13413910406494,Dizziness,Breast Cancer,MarkerA,Negative,88.89305704849747
+P00086,60,Female,None,DrugD,303,32,68.85070131529105,Dizziness,Diabetes,MarkerA,Positive,54.452664046635185
+P00087,56,Female,Hypertension,DrugC,302,23,65.35427834724521,None,Heart Disease,MarkerB,Positive,97.74534171352508
+P00088,35,Male,Diabetes,DrugA,222,39,37.39715324946379,Fatigue,Heart Disease,MarkerA,Negative,71.95362581571621
+P00089,73,Male,Hypertension,DrugB,488,52,13.156902500160273,Fatigue,Breast Cancer,MarkerB,Negative,74.93766447825415
+P00090,46,Male,None,DrugD,165,38,71.04618313722835,Fatigue,Heart Disease,MarkerB,Positive,55.34113014822073
+P00091,62,Male,None,DrugC,129,23,65.59057559060544,Nausea,Heart Disease,MarkerB,Negative,62.5336436296879
+P00092,51,Female,Cancer,DrugB,292,21,75.70891443943516,Nausea,Heart Disease,MarkerA,Positive,71.24670056395743
+P00093,20,Male,None,DrugA,110,34,74.59245427038125,Dizziness,Lung Cancer,MarkerB,Positive,73.24431234940803
+P00094,72,Female,Cancer,DrugD,283,11,26.484507584964934,Dizziness,Lung Cancer,MarkerD,Negative,56.79152232572584
+P00095,64,Male,None,DrugB,179,33,16.152790401773508,None,Heart Disease,MarkerB,Positive,75.03168293543861
+P00096,26,Female,Cancer,DrugB,353,7,53.88551428898788,None,Breast Cancer,MarkerB,Negative,52.486158135538744
+P00097,62,Male,Hypertension,DrugB,472,19,6.969186151718343,None,Diabetes,MarkerB,Positive,69.61869208909447
+P00098,39,Male,None,DrugB,455,25,50.52965309256666,Dizziness,Breast Cancer,MarkerB,Negative,78.796889138752
+P00099,40,Male,Hypertension,DrugC,103,18,94.73926698592066,None,Heart Disease,MarkerB,Negative,87.43868738679583
+P00100,19,Female,Hypertension,DrugA,327,5,50.10711796288672,Dizziness,Heart Disease,MarkerC,Positive,67.88288039609026
+P00101,41,Female,Cancer,DrugA,79,25,60.22395722650623,Nausea,Heart Disease,MarkerD,Negative,94.23389777778064
+P00102,25,Female,None,DrugA,219,34,71.93422046962652,Fatigue,Lung Cancer,MarkerA,Negative,57.21960085803309
+P00103,20,Female,Cancer,DrugC,255,47,95.1899057218124,Dizziness,Heart Disease,MarkerC,Positive,67.02206573586935
+P00104,24,Male,Diabetes,DrugA,345,42,81.78899055144025,Fatigue,Heart Disease,MarkerC,Positive,88.42266628151901
+P00105,26,Male,Diabetes,DrugB,204,59,18.339257175754888,Nausea,Lung Cancer,MarkerC,Positive,67.28718953050416
+P00106,66,Female,Cancer,DrugC,322,32,69.0664851287162,None,Diabetes,MarkerA,Negative,85.13520441164007
+P00107,60,Female,Diabetes,DrugB,206,46,76.86673636206956,None,Lung Cancer,MarkerA,Negative,80.55074018580764
+P00108,46,Female,Hypertension,DrugC,480,7,50.36653750675075,Nausea,Breast Cancer,MarkerB,Positive,84.6809674694474
+P00109,68,Male,None,DrugB,398,19,94.78902276743973,None,Breast Cancer,MarkerA,Positive,77.96412279452942
+P00110,84,Female,Diabetes,DrugC,368,11,74.00145490809776,None,Lung Cancer,MarkerC,Positive,64.69562887846959
+P00111,27,Male,Cancer,DrugB,473,13,31.4571452774397,Nausea,Heart Disease,MarkerB,Positive,80.57360424891372
+P00112,24,Female,None,DrugA,323,49,28.998055963138647,Fatigue,Diabetes,MarkerA,Negative,81.34359352280757
+P00113,19,Male,Hypertension,DrugC,235,17,88.857840876354,Dizziness,Heart Disease,MarkerC,Positive,54.20711166536684
+P00114,79,Female,Diabetes,DrugA,473,13,77.01213596078193,Nausea,Heart Disease,MarkerB,Positive,73.27470593827177
+P00115,49,Female,Hypertension,DrugB,446,7,94.28996406107247,Dizziness,Heart Disease,MarkerC,Positive,61.987886202703365
+P00116,33,Male,Cancer,DrugB,110,42,42.86054815366009,Dizziness,Breast Cancer,MarkerA,Negative,73.76734678608618
+P00117,69,Female,None,DrugC,255,5,15.846253220560646,Fatigue,Heart Disease,MarkerD,Positive,67.4619050047539
+P00118,49,Female,Diabetes,DrugB,450,27,77.58785315325275,Fatigue,Lung Cancer,MarkerB,Positive,69.79794776521678
+P00119,57,Female,Hypertension,DrugD,443,28,59.16987069205833,Nausea,Heart Disease,MarkerB,Positive,51.64597417851496
+P00120,47,Female,None,DrugA,256,37,49.92758669395963,None,Diabetes,MarkerC,Negative,62.35249428935184
+P00121,42,Female,None,DrugC,408,48,59.973550419589216,Dizziness,Diabetes,MarkerA,Positive,96.16510659162678
+P00122,65,Female,None,DrugD,249,53,85.14124346319902,Fatigue,Breast Cancer,MarkerC,Positive,95.30602419769474
+P00123,77,Female,Hypertension,DrugA,248,31,17.70653368599734,Nausea,Breast Cancer,MarkerD,Positive,70.2598306330843
+P00124,32,Female,None,DrugD,148,51,8.82756951047552,Fatigue,Diabetes,MarkerA,Positive,72.12167105139272
+P00125,52,Female,Cancer,DrugB,388,30,79.85923861570343,None,Diabetes,MarkerB,Negative,88.60227731462943
+P00126,89,Male,Hypertension,DrugB,329,31,45.94228718514538,Nausea,Breast Cancer,MarkerB,Negative,94.82347010504273
+P00127,20,Female,Cancer,DrugC,429,15,2.975265841850294,Fatigue,Lung Cancer,MarkerD,Positive,57.46621759655884
+P00128,64,Female,Diabetes,DrugD,112,20,79.54876805605053,Nausea,Lung Cancer,MarkerB,Negative,52.588871574852305
+P00129,27,Female,Diabetes,DrugC,473,29,20.713855643917313,None,Breast Cancer,MarkerA,Negative,52.37442780098792
+P00130,46,Female,Diabetes,DrugC,108,13,25.309198405252097,Fatigue,Diabetes,MarkerD,Negative,65.26098472179373
+P00131,78,Female,Hypertension,DrugB,194,15,91.79475697997151,Fatigue,Diabetes,MarkerA,Positive,77.97889533335962
+P00132,33,Female,None,DrugC,209,8,1.557733286400842,Dizziness,Diabetes,MarkerB,Positive,74.76729167263527
+P00133,51,Female,Diabetes,DrugC,167,34,21.59982410599357,Nausea,Lung Cancer,MarkerC,Positive,80.45552028690383
+P00134,23,Male,Diabetes,DrugB,123,32,78.98062329825937,Dizziness,Diabetes,MarkerC,Positive,93.96304134372758
+P00135,73,Female,None,DrugB,244,10,13.684154295188755,None,Lung Cancer,MarkerD,Positive,95.80944150807619
+P00136,47,Male,Diabetes,DrugA,440,19,68.94930548231109,Fatigue,Diabetes,MarkerD,Negative,96.80837265574775
+P00137,31,Male,Hypertension,DrugC,219,35,57.34579777203511,Nausea,Breast Cancer,MarkerB,Negative,55.43150380387685
+P00138,68,Female,Cancer,DrugD,358,19,22.39874192637078,Nausea,Lung Cancer,MarkerA,Positive,58.7767372916982
+P00139,60,Male,None,DrugB,359,13,37.4019510825639,None,Lung Cancer,MarkerB,Negative,60.55354379738022
+P00140,25,Female,Cancer,DrugD,166,23,73.5522895290456,Nausea,Lung Cancer,MarkerA,Positive,89.28996976298644
+P00141,77,Female,Cancer,DrugC,478,52,32.9344155005454,Dizziness,Diabetes,MarkerC,Positive,50.84324582346096
+P00142,82,Male,Hypertension,DrugD,59,5,56.09466356238746,Fatigue,Lung Cancer,MarkerC,Negative,88.06858317548252
+P00143,24,Female,Diabetes,DrugD,471,51,62.251901223898955,Nausea,Diabetes,MarkerA,Negative,64.74316606708155
+P00144,22,Male,Hypertension,DrugC,203,51,43.56728701174594,Fatigue,Heart Disease,MarkerA,Positive,56.93296457933175
+P00145,29,Male,None,DrugC,55,36,60.41444867593335,None,Diabetes,MarkerD,Positive,86.75000792449028
+P00146,45,Female,None,DrugA,409,14,41.08775466668798,None,Heart Disease,MarkerA,Negative,66.65214929213812
+P00147,89,Female,Diabetes,DrugA,225,8,41.63504323176952,Nausea,Breast Cancer,MarkerA,Negative,78.0607682967772
+P00148,49,Male,Diabetes,DrugA,282,35,17.768211735132766,Fatigue,Diabetes,MarkerB,Positive,88.1277826568247
+P00149,48,Female,Hypertension,DrugD,192,52,43.58676369617663,Nausea,Lung Cancer,MarkerA,Negative,92.54035865345926
+P00150,61,Female,Hypertension,DrugB,463,10,70.12188607425604,None,Breast Cancer,MarkerD,Positive,81.20738899275311
+P00151,51,Female,Diabetes,DrugD,399,51,20.837109434378775,None,Diabetes,MarkerC,Negative,91.74363152329019
+P00152,29,Female,Hypertension,DrugD,112,24,11.215924672786615,Fatigue,Lung Cancer,MarkerD,Positive,53.64945956080433
+P00153,86,Male,Hypertension,DrugD,156,13,46.38041072209184,None,Heart Disease,MarkerA,Negative,57.92582140674195
+P00154,81,Male,None,DrugB,272,20,1.9785870338556721,Nausea,Heart Disease,MarkerB,Positive,50.562846267684286
+P00155,57,Female,Cancer,DrugD,379,25,36.8978197197372,Dizziness,Breast Cancer,MarkerA,Positive,96.08140289560323
+P00156,61,Female,None,DrugA,56,34,17.272876982927244,Dizziness,Diabetes,MarkerD,Negative,93.14618251881168
+P00157,79,Male,Cancer,DrugD,103,40,82.75643720198701,Nausea,Heart Disease,MarkerB,Negative,90.29397054653539
+P00158,39,Female,Cancer,DrugA,456,36,82.3495107438769,Fatigue,Heart Disease,MarkerC,Negative,91.71359117834632
+P00159,83,Male,Cancer,DrugC,142,56,10.971136553708071,Nausea,Lung Cancer,MarkerD,Negative,62.252703964811715
+P00160,78,Male,Hypertension,DrugB,207,49,91.02511593737113,None,Breast Cancer,MarkerA,Negative,78.60128940626637
+P00161,43,Female,Cancer,DrugD,117,49,30.44086729730333,None,Lung Cancer,MarkerD,Negative,62.7864992474145
+P00162,18,Male,Hypertension,DrugB,84,24,45.956439905332545,Nausea,Lung Cancer,MarkerA,Positive,82.49458707166602
+P00163,20,Female,Diabetes,DrugC,143,18,54.07466274515592,Nausea,Heart Disease,MarkerD,Positive,83.37432187449639
+P00164,36,Female,Hypertension,DrugA,234,32,20.578311663960957,Fatigue,Breast Cancer,MarkerC,Negative,81.8360173152623
+P00165,62,Female,Cancer,DrugA,201,21,25.136530615082066,Dizziness,Diabetes,MarkerD,Positive,82.13260354021969
+P00166,81,Male,None,DrugA,462,25,84.27668340791367,Fatigue,Diabetes,MarkerC,Negative,96.510147710135
+P00167,88,Female,Cancer,DrugC,339,58,77.33524213041066,None,Breast Cancer,MarkerC,Positive,55.7996822226321
+P00168,68,Female,Diabetes,DrugD,210,54,0.4673201850712849,Nausea,Heart Disease,MarkerB,Negative,57.953713523720765
+P00169,48,Female,Hypertension,DrugD,317,20,83.14961463759451,None,Breast Cancer,MarkerA,Negative,76.2681391774365
+P00170,79,Female,Diabetes,DrugA,452,21,74.41479526875194,Dizziness,Lung Cancer,MarkerD,Negative,79.14626396000881
+P00171,26,Female,None,DrugA,163,37,65.22819673738796,Dizziness,Diabetes,MarkerC,Negative,88.99425546391159
+P00172,31,Female,None,DrugB,257,42,17.111827319924256,Nausea,Lung Cancer,MarkerB,Positive,87.15165474527325
+P00173,21,Female,Hypertension,DrugC,378,10,43.1985275246176,Nausea,Diabetes,MarkerD,Negative,58.160298063283896
+P00174,73,Female,Diabetes,DrugB,297,21,35.027841242809764,Dizziness,Breast Cancer,MarkerC,Negative,60.28111697356383
+P00175,41,Female,Cancer,DrugB,431,35,45.84249756994836,Dizziness,Breast Cancer,MarkerA,Negative,69.52007056286415
+P00176,43,Female,Cancer,DrugC,441,40,63.11213162951438,Nausea,Breast Cancer,MarkerA,Positive,85.31582434778139
+P00177,28,Male,Diabetes,DrugD,56,25,67.14040133034862,Dizziness,Heart Disease,MarkerC,Negative,66.75491112243292
+P00178,60,Female,Diabetes,DrugC,186,8,51.08743293439699,Dizziness,Lung Cancer,MarkerB,Positive,86.6721724923876
+P00179,75,Female,Hypertension,DrugC,271,23,28.638871445866055,Dizziness,Diabetes,MarkerA,Positive,95.92829740516066
+P00180,85,Male,None,DrugA,305,40,72.27558271081045,Nausea,Heart Disease,MarkerB,Positive,91.13434269767714
+P00181,32,Male,Cancer,DrugC,403,31,94.39509640204204,None,Diabetes,MarkerC,Negative,95.86425895825387
+P00182,68,Male,Cancer,DrugB,464,5,89.15763013862357,Fatigue,Heart Disease,MarkerD,Negative,70.1534612668597
+P00183,60,Female,None,DrugC,473,45,41.62594257350176,Nausea,Lung Cancer,MarkerC,Negative,92.5211077706971
+P00184,87,Female,Hypertension,DrugA,461,35,52.39512329431073,Fatigue,Diabetes,MarkerD,Positive,74.17565359611683
+P00185,66,Male,Diabetes,DrugD,309,12,80.34015928570967,Nausea,Breast Cancer,MarkerB,Negative,91.43179766674731
+P00186,33,Male,None,DrugB,67,23,69.68723307284756,None,Lung Cancer,MarkerC,Positive,76.0764136683762
+P00187,25,Male,None,DrugD,235,42,73.86600987378296,Nausea,Diabetes,MarkerA,Negative,92.63954906464939
+P00188,68,Male,Diabetes,DrugD,473,6,69.83349463388578,None,Heart Disease,MarkerA,Negative,78.05262061924302
+P00189,85,Female,None,DrugD,281,57,64.21139527815889,None,Lung Cancer,MarkerC,Negative,57.13713557553003
+P00190,76,Male,Diabetes,DrugB,288,55,94.34680176066126,None,Diabetes,MarkerC,Negative,92.47767509211363
+P00191,40,Female,None,DrugB,321,34,57.364638997988656,Dizziness,Lung Cancer,MarkerA,Positive,80.58739691071509
+P00192,27,Male,None,DrugC,221,33,54.18251406857614,Nausea,Diabetes,MarkerC,Negative,68.0920275043875
+P00193,76,Female,None,DrugC,265,45,20.635537164826168,Dizziness,Lung Cancer,MarkerD,Positive,73.92109619286417
+P00194,66,Female,Cancer,DrugC,152,43,46.06568255222838,Nausea,Breast Cancer,MarkerA,Positive,88.9660797648414
+P00195,43,Male,Diabetes,DrugD,312,22,28.066102289816786,Nausea,Diabetes,MarkerA,Positive,87.43521244861277
+P00196,25,Male,Cancer,DrugA,413,7,15.53023437249539,Dizziness,Breast Cancer,MarkerA,Negative,68.57452612290388
+P00197,89,Male,Diabetes,DrugA,454,43,10.295928836622236,None,Heart Disease,MarkerD,Negative,81.02160913496843
+P00198,22,Female,Cancer,DrugA,86,53,93.78244052784301,None,Heart Disease,MarkerD,Positive,54.88822838435946
+P00199,82,Female,Diabetes,DrugD,499,51,97.12460177225896,Nausea,Diabetes,MarkerD,Negative,54.745326950970906
+P00200,55,Female,Cancer,DrugA,386,44,72.64788737324957,Nausea,Breast Cancer,MarkerC,Negative,83.57149061471169
+P00201,79,Female,Cancer,DrugC,117,25,60.328542168193756,Dizziness,Heart Disease,MarkerC,Positive,78.6703622267845
+P00202,34,Female,None,DrugB,407,36,52.941228968760065,Nausea,Heart Disease,MarkerC,Positive,94.9008333054207
+P00203,73,Female,None,DrugB,452,11,49.39308781791873,Dizziness,Diabetes,MarkerA,Positive,99.04555987380739
+P00204,61,Male,Hypertension,DrugD,68,26,37.621134445019955,Nausea,Breast Cancer,MarkerB,Positive,53.38589352060688
+P00205,80,Male,None,DrugD,131,44,16.78433710040147,None,Diabetes,MarkerA,Negative,72.9297244599681
+P00206,85,Male,None,DrugA,366,20,29.53819632762771,Nausea,Lung Cancer,MarkerD,Negative,78.26694686038465
+P00207,20,Female,None,DrugC,452,6,64.40945013273631,Fatigue,Diabetes,MarkerD,Negative,95.99917432226546
+P00208,72,Male,None,DrugA,475,31,77.3792307477173,Nausea,Diabetes,MarkerA,Positive,58.63458377144049
+P00209,81,Female,Cancer,DrugD,159,23,35.615068528704164,Fatigue,Heart Disease,MarkerB,Negative,81.30604737480144
+P00210,76,Female,Diabetes,DrugB,465,6,48.58017341690866,Nausea,Diabetes,MarkerB,Positive,62.932140412638375
+P00211,26,Male,Diabetes,DrugA,254,42,53.490884438925555,Fatigue,Lung Cancer,MarkerA,Positive,68.11307628601855
+P00212,73,Male,Hypertension,DrugB,364,33,26.581007381430222,Fatigue,Diabetes,MarkerD,Positive,62.25884525319583
+P00213,81,Male,Cancer,DrugB,206,46,62.59534973761286,Nausea,Diabetes,MarkerB,Positive,77.85475714480532
+P00214,27,Female,None,DrugB,407,33,61.12400022556898,Dizziness,Breast Cancer,MarkerD,Negative,63.64969667571238
+P00215,28,Male,Diabetes,DrugD,457,44,18.60858031106859,None,Diabetes,MarkerC,Negative,82.98706602128749
+P00216,38,Female,Hypertension,DrugB,272,56,28.83452522532879,Fatigue,Lung Cancer,MarkerD,Positive,53.77237130291856
+P00217,56,Female,Hypertension,DrugA,241,49,41.38713959404854,None,Breast Cancer,MarkerD,Positive,88.93163202225422
+P00218,43,Female,None,DrugB,460,13,79.31049105256395,Dizziness,Heart Disease,MarkerB,Negative,66.31756660780644
+P00219,58,Female,Hypertension,DrugA,92,14,95.63230507335683,Fatigue,Lung Cancer,MarkerA,Negative,58.13856529727222
+P00220,60,Female,Cancer,DrugD,55,7,17.37972750217205,Nausea,Heart Disease,MarkerA,Positive,75.96969529482041
+P00221,38,Male,None,DrugB,186,25,46.5032334676908,Fatigue,Lung Cancer,MarkerD,Positive,81.57260022780287
+P00222,89,Male,None,DrugD,293,25,3.1725388131685683,Dizziness,Lung Cancer,MarkerA,Negative,79.70121676079017
+P00223,33,Female,Diabetes,DrugC,435,45,21.900343473404305,None,Heart Disease,MarkerD,Negative,70.60069800283928
+P00224,18,Female,Hypertension,DrugA,430,12,16.127891667881332,Fatigue,Lung Cancer,MarkerB,Negative,96.46162353832457
+P00225,29,Female,Cancer,DrugC,388,59,97.34352203723307,Fatigue,Diabetes,MarkerD,Positive,92.08459771455293
+P00226,21,Female,None,DrugD,376,17,47.35116715876833,Dizziness,Breast Cancer,MarkerA,Negative,99.2323332358866
+P00227,27,Male,Hypertension,DrugA,302,31,77.92700567855594,Nausea,Heart Disease,MarkerD,Positive,62.19107330693494
+P00228,80,Female,Diabetes,DrugA,326,35,5.0042794855026385,Nausea,Diabetes,MarkerC,Positive,93.74377623474047
+P00229,36,Female,Diabetes,DrugA,397,13,12.422714836324644,Dizziness,Breast Cancer,MarkerB,Positive,66.20376588367266
+P00230,87,Female,None,DrugC,335,17,87.98748370790602,Dizziness,Diabetes,MarkerD,Positive,95.53953435791874
+P00231,23,Female,Hypertension,DrugA,291,13,46.36434194185893,Nausea,Heart Disease,MarkerB,Negative,55.00126870394612
+P00232,76,Male,Cancer,DrugD,337,54,91.57236819248823,Fatigue,Heart Disease,MarkerC,Negative,84.17650089816541
+P00233,49,Male,Cancer,DrugD,263,27,94.50304729096435,None,Diabetes,MarkerA,Negative,80.41955251862066
+P00234,84,Female,Cancer,DrugC,55,59,42.80165785673643,Fatigue,Heart Disease,MarkerD,Positive,58.88126771700864
+P00235,75,Male,Diabetes,DrugD,360,5,81.35271176337618,Nausea,Heart Disease,MarkerD,Positive,85.25178108256216
+P00236,76,Male,Cancer,DrugC,375,34,49.14810986098185,None,Lung Cancer,MarkerA,Negative,94.97223447349087
+P00237,45,Male,Diabetes,DrugC,268,14,30.6149534470334,Fatigue,Lung Cancer,MarkerA,Positive,81.43919864526056
+P00238,49,Male,None,DrugD,244,25,96.70144695010056,Nausea,Breast Cancer,MarkerD,Negative,50.82172837973403
+P00239,60,Male,Hypertension,DrugB,289,23,5.46270967252942,Dizziness,Lung Cancer,MarkerB,Positive,69.21311483064416
+P00240,32,Male,None,DrugB,129,48,79.06842635279376,None,Heart Disease,MarkerD,Positive,53.67187708884506
+P00241,59,Male,Hypertension,DrugB,339,44,11.200872790574913,Nausea,Diabetes,MarkerA,Positive,69.63223506427279
+P00242,83,Male,Diabetes,DrugC,133,52,10.806557126708082,Fatigue,Heart Disease,MarkerB,Positive,65.15375431793905
+P00243,43,Male,Cancer,DrugA,204,37,25.888354452184025,Nausea,Diabetes,MarkerD,Negative,88.72120019070508
+P00244,63,Male,Diabetes,DrugD,377,37,7.521091045016726,None,Heart Disease,MarkerC,Positive,99.82381130968761
+P00245,48,Female,None,DrugC,419,5,83.2042036239703,None,Breast Cancer,MarkerA,Positive,73.84151965139043
+P00246,67,Female,Diabetes,DrugB,271,33,56.276820893156035,Nausea,Diabetes,MarkerD,Positive,68.39750197131522
+P00247,63,Male,Hypertension,DrugD,284,57,15.778171223561754,Fatigue,Lung Cancer,MarkerA,Negative,89.40202873507624
+P00248,77,Male,Cancer,DrugB,436,42,60.68542016731867,Dizziness,Breast Cancer,MarkerC,Positive,78.76431947628711
+P00249,56,Female,None,DrugB,67,58,95.80146185766544,None,Lung Cancer,MarkerB,Negative,61.45438807062396
+P00250,39,Male,Hypertension,DrugD,75,32,84.63683563160787,None,Heart Disease,MarkerD,Positive,91.27648994260838
+P00251,85,Female,None,DrugB,55,19,46.00345598088323,Fatigue,Lung Cancer,MarkerA,Negative,55.370284960729656
+P00252,34,Male,Diabetes,DrugB,246,18,83.11362912817076,Fatigue,Lung Cancer,MarkerC,Positive,68.41527841698317
+P00253,50,Female,Cancer,DrugB,399,26,50.88435515706128,Nausea,Lung Cancer,MarkerC,Positive,78.87855142544299
+P00254,58,Male,Hypertension,DrugD,226,15,19.269895196990262,Fatigue,Breast Cancer,MarkerA,Positive,58.05926563447648
+P00255,74,Female,Hypertension,DrugD,264,40,0.7556944064020854,None,Diabetes,MarkerA,Negative,75.54336277027252
+P00256,55,Male,None,DrugC,291,58,99.87142189972785,None,Breast Cancer,MarkerB,Positive,53.38664218379789
+P00257,72,Female,Cancer,DrugC,453,39,17.14344467318861,Fatigue,Diabetes,MarkerB,Positive,65.99303108876477
+P00258,40,Male,Diabetes,DrugB,158,33,39.689094152444746,Dizziness,Lung Cancer,MarkerA,Negative,68.12097539005671
+P00259,43,Male,Cancer,DrugD,451,47,77.35014835205499,Dizziness,Heart Disease,MarkerD,Negative,55.89861926022284
+P00260,60,Female,None,DrugB,392,15,60.72495764189245,Nausea,Lung Cancer,MarkerC,Negative,64.77685682203396
+P00261,83,Female,Diabetes,DrugC,299,15,91.69076488080152,Nausea,Heart Disease,MarkerC,Negative,58.830518441232556
+P00262,64,Female,None,DrugA,322,48,76.4352153443957,None,Heart Disease,MarkerA,Positive,74.40120243100067
+P00263,62,Male,Hypertension,DrugC,60,59,78.765160408768,Fatigue,Heart Disease,MarkerC,Positive,55.48964171480855
+P00264,22,Female,Diabetes,DrugB,122,10,68.83832330045726,Fatigue,Breast Cancer,MarkerB,Positive,52.70176423263737
+P00265,69,Female,Diabetes,DrugA,92,14,31.766843084189667,Fatigue,Lung Cancer,MarkerB,Negative,66.21840589359189
+P00266,58,Female,None,DrugD,136,26,59.477382013852974,None,Diabetes,MarkerD,Negative,73.66314052146376
+P00267,23,Female,Diabetes,DrugC,412,46,44.062745406090045,None,Lung Cancer,MarkerC,Positive,99.83027464723975
+P00268,23,Female,None,DrugD,293,32,56.57183858716187,Fatigue,Lung Cancer,MarkerD,Negative,85.99703988117588
+P00269,35,Male,Diabetes,DrugB,159,55,20.288252056089352,Dizziness,Lung Cancer,MarkerB,Negative,61.84155074910716
+P00270,73,Female,Cancer,DrugC,318,5,65.07359297086528,Dizziness,Diabetes,MarkerD,Negative,88.52034799910115
+P00271,87,Male,Cancer,DrugA,164,29,88.90464905643427,Fatigue,Lung Cancer,MarkerC,Negative,68.01297969616012
+P00272,37,Female,None,DrugD,109,25,77.14980798025385,Dizziness,Breast Cancer,MarkerA,Positive,93.48700180057465
+P00273,52,Male,Cancer,DrugC,383,45,4.115746882706883,Fatigue,Breast Cancer,MarkerA,Positive,86.99297266441653
+P00274,28,Female,Cancer,DrugB,450,59,85.07876193021593,Nausea,Heart Disease,MarkerA,Negative,85.51993694389255
+P00275,25,Female,Cancer,DrugC,103,50,89.81308868203294,Fatigue,Lung Cancer,MarkerB,Negative,78.1771629581815
+P00276,35,Male,Cancer,DrugA,250,47,44.85225229805525,Dizziness,Heart Disease,MarkerB,Positive,72.39366971121777
+P00277,54,Male,Cancer,DrugA,60,8,74.27059102568789,Fatigue,Heart Disease,MarkerD,Negative,63.35714498822947
+P00278,54,Female,None,DrugA,460,30,63.69771516519867,None,Diabetes,MarkerD,Positive,76.34807495157659
+P00279,66,Male,None,DrugA,428,32,22.56997824992443,Dizziness,Diabetes,MarkerC,Negative,61.31662554409606
+P00280,41,Male,Cancer,DrugD,491,5,5.890583073313049,None,Diabetes,MarkerA,Positive,56.45888175540662
+P00281,24,Female,Hypertension,DrugB,235,10,54.46669443835096,Dizziness,Diabetes,MarkerD,Negative,71.48344197336831
+P00282,82,Female,Hypertension,DrugD,106,34,82.47850199353287,Dizziness,Lung Cancer,MarkerA,Positive,80.57649530826312
+P00283,67,Female,Cancer,DrugB,67,43,63.420869962400516,Dizziness,Lung Cancer,MarkerA,Positive,55.248927968620976
+P00284,33,Female,Hypertension,DrugD,294,33,97.83509571106602,Nausea,Heart Disease,MarkerA,Positive,73.58934696045287
+P00285,69,Male,Diabetes,DrugA,114,31,92.0987533764285,None,Breast Cancer,MarkerA,Positive,67.32232304651379
+P00286,86,Male,Cancer,DrugD,319,38,13.21580590641781,Fatigue,Heart Disease,MarkerA,Negative,71.84433145440406
+P00287,42,Female,Cancer,DrugA,404,12,99.15520393882697,Dizziness,Heart Disease,MarkerB,Negative,53.47671530336306
+P00288,42,Male,Hypertension,DrugD,434,38,3.2456603019081043,Dizziness,Diabetes,MarkerB,Negative,81.88485064191265
+P00289,73,Female,Diabetes,DrugB,163,16,48.46428539572029,None,Heart Disease,MarkerA,Negative,50.965783177127186
+P00290,80,Male,None,DrugC,311,52,9.57039058738216,Dizziness,Heart Disease,MarkerA,Negative,59.62938205470515
+P00291,85,Male,Cancer,DrugC,496,12,8.907190221843331,Nausea,Lung Cancer,MarkerC,Positive,64.7461469523684
+P00292,89,Female,Cancer,DrugB,329,43,70.49339249643356,None,Diabetes,MarkerB,Positive,84.86785966880944
+P00293,43,Female,Hypertension,DrugA,445,7,5.868820157239019,None,Lung Cancer,MarkerA,Positive,85.33902612400146
+P00294,88,Male,Diabetes,DrugB,378,10,68.70620771291668,Nausea,Breast Cancer,MarkerC,Negative,76.84496330723198
+P00295,30,Male,Cancer,DrugC,473,57,95.06422962766267,None,Breast Cancer,MarkerD,Negative,55.862394472629866
+P00296,19,Male,Hypertension,DrugC,236,32,27.062385184440284,None,Breast Cancer,MarkerB,Negative,88.75082234720327
+P00297,19,Male,Diabetes,DrugD,126,36,39.68094652492684,Nausea,Heart Disease,MarkerC,Negative,91.66875365817924
+P00298,28,Female,None,DrugC,237,44,2.0833301285822503,None,Heart Disease,MarkerB,Positive,70.95730537233342
+P00299,48,Male,Cancer,DrugD,222,12,76.56299211326171,Dizziness,Heart Disease,MarkerD,Negative,92.22563539881119
+P00300,35,Male,Hypertension,DrugB,197,6,31.21116733384104,Fatigue,Lung Cancer,MarkerD,Positive,55.96721564030835
+P00301,75,Female,Cancer,DrugA,478,17,22.07403570740224,Nausea,Diabetes,MarkerC,Positive,94.12459095251202
+P00302,49,Female,Cancer,DrugB,62,19,97.68641570414482,Nausea,Heart Disease,MarkerD,Negative,74.19883732380204
+P00303,30,Female,Cancer,DrugA,112,11,50.78904169445545,None,Breast Cancer,MarkerA,Negative,96.4965089750327
+P00304,75,Female,Hypertension,DrugA,183,17,73.07727803617084,Nausea,Diabetes,MarkerC,Negative,71.89639613631932
+P00305,39,Female,None,DrugC,56,39,14.700755085803285,Nausea,Diabetes,MarkerB,Positive,79.88639231439568
+P00306,78,Female,Diabetes,DrugB,199,31,11.89638879789926,Nausea,Lung Cancer,MarkerB,Positive,64.72137610166556
+P00307,21,Female,None,DrugA,125,23,28.741784024013562,Dizziness,Breast Cancer,MarkerD,Negative,96.23960549346236
+P00308,55,Male,Diabetes,DrugD,376,37,54.17542112244356,Fatigue,Heart Disease,MarkerD,Positive,72.89077655751724
+P00309,36,Female,Hypertension,DrugD,307,48,30.86148102108193,Fatigue,Diabetes,MarkerA,Positive,78.52904343076686
+P00310,80,Male,Cancer,DrugD,201,41,19.29805530104325,Fatigue,Diabetes,MarkerC,Positive,80.11465008016314
+P00311,83,Female,Diabetes,DrugA,205,17,51.298639666020506,Nausea,Diabetes,MarkerC,Negative,85.31096171137915
+P00312,21,Female,Cancer,DrugB,317,18,53.13206233641481,Nausea,Diabetes,MarkerB,Positive,86.27181895653834
+P00313,18,Male,None,DrugC,137,35,44.53493453556601,Nausea,Diabetes,MarkerB,Negative,95.76683262603069
+P00314,85,Male,None,DrugC,387,40,7.859022891103528,Fatigue,Diabetes,MarkerB,Positive,77.2974823674391
+P00315,86,Female,Hypertension,DrugA,247,56,75.90965485782742,None,Diabetes,MarkerD,Negative,60.024843177585765
+P00316,55,Male,None,DrugB,424,8,32.47404080642341,Fatigue,Breast Cancer,MarkerC,Negative,51.195526861624636
+P00317,85,Male,Cancer,DrugD,380,43,98.01987884592039,Fatigue,Diabetes,MarkerD,Negative,61.63847600642021
+P00318,73,Female,None,DrugC,114,34,4.70571660044291,Fatigue,Heart Disease,MarkerC,Negative,93.26448786499019
+P00319,39,Female,None,DrugB,166,14,18.86643561592387,Nausea,Diabetes,MarkerC,Positive,61.57245924104513
+P00320,20,Female,Cancer,DrugA,297,6,37.629666662776806,Nausea,Lung Cancer,MarkerB,Positive,58.82951078340934
+P00321,88,Female,Diabetes,DrugB,267,18,15.295521773463093,Dizziness,Heart Disease,MarkerB,Negative,99.14391232428697
+P00322,75,Male,Diabetes,DrugD,257,33,70.08929237597881,Fatigue,Heart Disease,MarkerA,Negative,80.80451803646845
+P00323,69,Female,Hypertension,DrugD,234,49,28.232666436716514,Dizziness,Breast Cancer,MarkerA,Negative,66.22891650987899
+P00324,62,Male,Diabetes,DrugB,221,43,49.34613075512353,None,Breast Cancer,MarkerB,Positive,92.68626047923264
+P00325,59,Female,Hypertension,DrugD,140,26,30.551787027592205,Nausea,Diabetes,MarkerC,Negative,80.96379914486415
+P00326,35,Male,Hypertension,DrugA,87,6,53.8238597101039,Nausea,Heart Disease,MarkerB,Negative,83.77487204254487
+P00327,66,Female,Diabetes,DrugB,234,47,14.97385177550502,Dizziness,Breast Cancer,MarkerD,Negative,91.01979243202982
+P00328,37,Female,None,DrugB,160,26,8.702935969462589,Nausea,Heart Disease,MarkerA,Positive,56.18091331984233
+P00329,18,Female,Diabetes,DrugD,253,39,92.46515463537342,Fatigue,Lung Cancer,MarkerC,Negative,72.10255665177488
+P00330,42,Male,Hypertension,DrugB,201,52,93.5689747394748,Dizziness,Heart Disease,MarkerD,Negative,66.97400829324232
+P00331,44,Male,Diabetes,DrugC,450,56,47.60353610988898,Fatigue,Diabetes,MarkerB,Negative,53.10823581135442
+P00332,55,Male,None,DrugD,384,56,89.00899705767019,None,Diabetes,MarkerB,Negative,64.64789993306957
+P00333,22,Female,Diabetes,DrugC,87,31,52.740627808843755,Fatigue,Heart Disease,MarkerC,Negative,52.03197210324108
+P00334,61,Male,Hypertension,DrugA,133,55,55.28234630662221,Dizziness,Heart Disease,MarkerB,Negative,60.100801924635725
+P00335,58,Male,None,DrugB,294,32,57.30092942224635,Nausea,Diabetes,MarkerD,Negative,93.26974756044015
+P00336,47,Female,None,DrugC,117,49,87.07170852261271,Nausea,Diabetes,MarkerD,Positive,73.03862653332142
+P00337,75,Male,None,DrugC,302,11,9.57400129476953,Fatigue,Heart Disease,MarkerC,Positive,53.510100219094845
+P00338,21,Female,Diabetes,DrugB,239,15,44.97534137406733,None,Diabetes,MarkerC,Positive,83.26142780365572
+P00339,31,Male,Cancer,DrugC,220,32,94.48625127310467,Dizziness,Diabetes,MarkerA,Positive,88.78560436372065
+P00340,49,Male,Hypertension,DrugD,149,31,14.976673052133748,Nausea,Heart Disease,MarkerA,Negative,68.75070819511606
+P00341,27,Female,Diabetes,DrugA,310,54,7.028787418341642,Fatigue,Diabetes,MarkerD,Positive,87.15334159096032
+P00342,85,Male,None,DrugB,184,32,13.70056659449621,Nausea,Diabetes,MarkerB,Negative,62.79317009416398
+P00343,71,Male,Hypertension,DrugA,340,53,45.150848022161426,Dizziness,Heart Disease,MarkerA,Negative,77.15188542585005
+P00344,53,Male,Diabetes,DrugB,197,6,47.96413650993334,Fatigue,Diabetes,MarkerB,Positive,92.36874136223449
+P00345,20,Female,Hypertension,DrugA,382,33,91.33579975979617,None,Heart Disease,MarkerD,Positive,93.07263441306661
+P00346,54,Female,Cancer,DrugC,203,48,36.92573173212605,Fatigue,Breast Cancer,MarkerA,Positive,84.64860014304799
+P00347,83,Male,Cancer,DrugC,88,27,8.778076148316005,Dizziness,Heart Disease,MarkerB,Positive,83.4449856641584
+P00348,32,Male,Hypertension,DrugA,345,24,52.924240449120106,Dizziness,Breast Cancer,MarkerA,Positive,54.23432047089351
+P00349,71,Female,Hypertension,DrugD,98,29,61.350241268573626,Nausea,Lung Cancer,MarkerC,Positive,53.594665925967995
+P00350,44,Female,Hypertension,DrugA,212,7,81.87481258295219,None,Lung Cancer,MarkerD,Positive,75.11280141345173
+P00351,32,Female,Cancer,DrugC,128,32,53.66580354317506,Nausea,Heart Disease,MarkerD,Negative,64.66952189072249
+P00352,46,Female,Hypertension,DrugA,196,41,55.018148288342836,Nausea,Heart Disease,MarkerD,Negative,77.0913552375845
+P00353,67,Female,Diabetes,DrugC,139,38,82.56295827544143,None,Breast Cancer,MarkerD,Positive,89.56048949425477
+P00354,31,Male,None,DrugB,486,47,45.90016622538242,Dizziness,Diabetes,MarkerB,Positive,50.11600622148983
+P00355,48,Male,None,DrugB,50,46,41.83029534584206,Nausea,Diabetes,MarkerD,Negative,56.642913431078775
+P00356,21,Female,Hypertension,DrugA,199,12,29.909951918124445,Nausea,Heart Disease,MarkerA,Positive,70.57144392848544
+P00357,45,Male,Diabetes,DrugB,407,59,86.22231795234923,None,Diabetes,MarkerA,Negative,88.77590300238909
+P00358,53,Female,Diabetes,DrugD,294,27,30.42407905613289,None,Diabetes,MarkerC,Negative,98.10321613375814
+P00359,69,Male,None,DrugD,221,30,87.01115319967535,None,Lung Cancer,MarkerD,Positive,89.87439003976726
+P00360,20,Male,Cancer,DrugD,96,53,67.70003677499388,Fatigue,Lung Cancer,MarkerC,Positive,69.1100912822865
+P00361,24,Male,None,DrugC,382,44,39.96679466786238,None,Lung Cancer,MarkerA,Negative,59.23705827147719
+P00362,71,Male,Diabetes,DrugC,168,57,71.21827277037195,Fatigue,Lung Cancer,MarkerB,Negative,98.72695962676205
+P00363,41,Male,Hypertension,DrugD,405,43,26.769310717478657,Dizziness,Diabetes,MarkerA,Negative,53.28483700352694
+P00364,43,Male,None,DrugA,497,49,21.681757439291005,Nausea,Diabetes,MarkerA,Positive,66.67189296333085
+P00365,54,Female,Cancer,DrugC,180,51,10.690992598597148,Dizziness,Heart Disease,MarkerC,Negative,83.51695321923376
+P00366,80,Male,Hypertension,DrugA,272,41,28.560826502897907,Dizziness,Diabetes,MarkerA,Negative,56.863954205285474
+P00367,47,Male,Hypertension,DrugD,476,22,52.09977514733167,Nausea,Breast Cancer,MarkerC,Positive,92.8024771108852
+P00368,38,Male,None,DrugB,296,52,55.54482251360542,Fatigue,Diabetes,MarkerC,Negative,93.06249081319976
+P00369,45,Female,Hypertension,DrugC,354,48,64.35629977506902,None,Diabetes,MarkerC,Positive,94.8596261136634
+P00370,24,Male,Cancer,DrugC,276,28,64.07389545156063,Fatigue,Diabetes,MarkerC,Negative,72.89626914916295
+P00371,45,Female,Hypertension,DrugC,137,55,32.07267068320135,None,Lung Cancer,MarkerD,Negative,87.4915860158819
+P00372,38,Male,Hypertension,DrugA,461,59,9.395403500163635,Dizziness,Breast Cancer,MarkerC,Positive,61.85936809573842
+P00373,87,Female,Hypertension,DrugA,201,51,40.39869917994703,None,Heart Disease,MarkerC,Negative,59.996767804489934
+P00374,44,Female,Hypertension,DrugB,166,18,16.148909151484148,None,Breast Cancer,MarkerA,Negative,98.13168409730469
+P00375,54,Male,Hypertension,DrugC,427,37,89.8781801111658,None,Diabetes,MarkerA,Negative,93.75370865340795
+P00376,85,Female,Cancer,DrugC,393,5,42.22531758687755,Fatigue,Heart Disease,MarkerD,Negative,74.49218915705842
+P00377,75,Female,None,DrugB,465,45,37.379630045293865,None,Breast Cancer,MarkerD,Negative,62.88835539084843
+P00378,64,Male,Hypertension,DrugC,357,52,20.28477287238597,None,Diabetes,MarkerC,Positive,89.60870198088818
+P00379,24,Female,Diabetes,DrugA,420,22,74.07540898028103,None,Diabetes,MarkerB,Negative,94.72273717615926
+P00380,37,Female,Hypertension,DrugC,494,46,11.793084457626335,Fatigue,Heart Disease,MarkerB,Negative,98.9531866104013
+P00381,21,Male,Diabetes,DrugC,79,22,23.31210370043717,Nausea,Breast Cancer,MarkerC,Positive,74.62000619510164
+P00382,55,Female,Cancer,DrugD,54,34,87.25508732817954,Dizziness,Breast Cancer,MarkerC,Negative,54.59724880585609
+P00383,78,Male,None,DrugD,71,52,3.828703113375165,None,Lung Cancer,MarkerD,Negative,59.27253908706522
+P00384,43,Female,Diabetes,DrugB,208,27,88.10781701283452,Dizziness,Lung Cancer,MarkerB,Positive,66.07845056976336
+P00385,48,Female,None,DrugA,148,27,20.625158891310626,Nausea,Heart Disease,MarkerA,Negative,74.82247486958246
+P00386,63,Male,None,DrugC,374,30,74.0188410351611,None,Breast Cancer,MarkerA,Negative,81.57537468192325
+P00387,66,Male,Diabetes,DrugB,474,23,64.31657012236143,Nausea,Diabetes,MarkerB,Negative,69.14926659657834
+P00388,20,Female,None,DrugB,137,39,21.66078585093729,Dizziness,Diabetes,MarkerD,Positive,94.34517734790467
+P00389,68,Female,Hypertension,DrugD,60,55,7.450761299434195,Dizziness,Heart Disease,MarkerD,Positive,51.48258942832902
+P00390,42,Female,Hypertension,DrugD,293,42,29.203288098609026,None,Breast Cancer,MarkerD,Positive,59.4979396286913
+P00391,44,Female,Diabetes,DrugB,91,29,71.34728489946448,Fatigue,Breast Cancer,MarkerC,Negative,73.62057393113768
+P00392,47,Male,None,DrugA,330,51,88.1227819882457,Nausea,Diabetes,MarkerC,Positive,85.4995823516352
+P00393,68,Female,Hypertension,DrugD,82,6,37.17115808720969,None,Diabetes,MarkerB,Positive,94.00360072310664
+P00394,55,Male,None,DrugD,352,35,63.61746183253108,None,Heart Disease,MarkerA,Negative,55.3426569579192
+P00395,68,Female,Hypertension,DrugC,276,51,32.02759410229942,Fatigue,Breast Cancer,MarkerA,Positive,96.26668977275884
+P00396,27,Female,None,DrugD,439,44,98.25923743178568,Nausea,Diabetes,MarkerC,Negative,90.29187973540249
+P00397,33,Male,Diabetes,DrugA,191,20,83.19947367888551,Nausea,Diabetes,MarkerA,Negative,57.10022696230377
+P00398,48,Male,Hypertension,DrugD,457,9,51.08674796977163,Dizziness,Diabetes,MarkerB,Negative,77.78392591023027
+P00399,25,Female,Cancer,DrugC,280,37,58.868705803155876,Nausea,Diabetes,MarkerD,Negative,82.87817573429199
+P00400,35,Male,Hypertension,DrugB,390,17,26.805329961944878,Nausea,Heart Disease,MarkerA,Negative,79.53008067494281
+P00401,21,Female,Diabetes,DrugC,175,36,66.37458817897995,Dizziness,Diabetes,MarkerB,Positive,88.99069937945666
+P00402,88,Female,None,DrugA,461,14,33.05770921420611,Dizziness,Breast Cancer,MarkerA,Negative,79.45225025084156
+P00403,28,Male,Cancer,DrugD,160,55,99.56153420578495,Fatigue,Breast Cancer,MarkerC,Negative,59.44739846388263
+P00404,82,Male,Cancer,DrugC,205,44,11.496424570056218,Nausea,Diabetes,MarkerC,Negative,94.82491780652835
+P00405,19,Female,Cancer,DrugD,94,28,93.9752918830612,None,Lung Cancer,MarkerA,Positive,82.71868241905655
+P00406,72,Female,Hypertension,DrugD,210,38,25.001140730430738,None,Heart Disease,MarkerB,Negative,70.50862130903297
+P00407,31,Female,Hypertension,DrugA,364,10,74.77100400662019,Nausea,Breast Cancer,MarkerA,Positive,61.4432175259318
+P00408,76,Female,Diabetes,DrugB,77,12,73.82620323247005,None,Heart Disease,MarkerC,Negative,65.65082466065623
+P00409,33,Female,Cancer,DrugA,220,7,68.3899412388045,None,Lung Cancer,MarkerB,Positive,52.095991314474524
+P00410,46,Female,Hypertension,DrugC,295,51,70.96265702187095,Nausea,Heart Disease,MarkerA,Negative,68.52634365895634
+P00411,23,Male,Cancer,DrugA,338,10,18.978945353385036,Nausea,Heart Disease,MarkerA,Negative,99.42226832808714
+P00412,81,Female,Cancer,DrugD,455,43,90.13264669906637,None,Diabetes,MarkerD,Negative,63.85481959908515
+P00413,42,Female,None,DrugD,477,31,26.08553545044692,Dizziness,Lung Cancer,MarkerB,Negative,76.45345764067491
+P00414,55,Female,None,DrugA,493,46,60.879478152790526,None,Lung Cancer,MarkerC,Positive,59.30711940312452
+P00415,18,Female,Diabetes,DrugB,290,43,41.45430213990509,Nausea,Lung Cancer,MarkerC,Positive,84.18573707382112
+P00416,48,Female,Hypertension,DrugC,179,51,7.931729585186565,Fatigue,Diabetes,MarkerB,Positive,98.79814555163537
+P00417,67,Male,Diabetes,DrugB,380,37,80.29715265869123,Nausea,Heart Disease,MarkerC,Negative,68.87882603813219
+P00418,58,Female,None,DrugC,453,54,18.45386908538972,Nausea,Breast Cancer,MarkerC,Positive,70.56819327333358
+P00419,87,Female,Diabetes,DrugA,302,29,65.10790610697423,Nausea,Heart Disease,MarkerB,Negative,54.033177199685326
+P00420,64,Male,Diabetes,DrugB,491,26,99.13391141117388,Nausea,Breast Cancer,MarkerD,Positive,85.14944286384457
+P00421,25,Male,Cancer,DrugB,409,45,71.67070890001706,None,Lung Cancer,MarkerB,Positive,67.43519493542607
+P00422,88,Male,Diabetes,DrugB,248,24,23.950789545733507,Nausea,Heart Disease,MarkerA,Negative,87.09002465379297
+P00423,19,Male,Cancer,DrugB,213,37,99.69663340678002,Nausea,Heart Disease,MarkerB,Positive,72.0150155888484
+P00424,24,Female,Cancer,DrugA,312,53,38.566952282447645,Fatigue,Breast Cancer,MarkerA,Negative,80.5434093050545
+P00425,53,Male,Cancer,DrugB,50,32,37.15430642663957,Nausea,Heart Disease,MarkerC,Positive,98.23305386654692
+P00426,72,Male,Diabetes,DrugC,237,13,59.43610730168537,Fatigue,Lung Cancer,MarkerD,Negative,50.31943097757923
+P00427,26,Male,Cancer,DrugD,191,40,76.02725727408155,None,Heart Disease,MarkerA,Negative,99.49635959867305
+P00428,35,Female,Hypertension,DrugD,160,55,5.041551152787205,None,Breast Cancer,MarkerC,Negative,50.7715440639771
+P00429,69,Female,Diabetes,DrugA,87,53,42.59226648296009,Nausea,Lung Cancer,MarkerB,Negative,94.96238123062729
+P00430,86,Female,Cancer,DrugA,214,33,38.93464899667235,Dizziness,Heart Disease,MarkerD,Positive,89.50494822123537
+P00431,37,Male,None,DrugA,378,43,36.3618172501302,Nausea,Heart Disease,MarkerD,Negative,86.67705465242668
+P00432,75,Female,Cancer,DrugC,269,19,15.328707238492512,Dizziness,Diabetes,MarkerB,Negative,81.44497448492046
+P00433,57,Male,Diabetes,DrugC,336,6,21.176258584990993,Dizziness,Lung Cancer,MarkerD,Negative,82.54729635454018
+P00434,25,Male,Cancer,DrugC,398,5,28.17703013570493,Dizziness,Diabetes,MarkerC,Negative,70.46555195120885
+P00435,26,Female,Diabetes,DrugA,111,11,78.4976379614084,Dizziness,Diabetes,MarkerD,Negative,50.61083511792955
+P00436,55,Female,Cancer,DrugA,185,29,62.171576503117755,Dizziness,Heart Disease,MarkerC,Negative,78.35974399942107
+P00437,32,Male,Cancer,DrugC,293,16,31.32332097116346,None,Breast Cancer,MarkerA,Negative,99.59605578858623
+P00438,85,Female,None,DrugB,407,47,87.27835025662476,None,Lung Cancer,MarkerA,Positive,52.11351545996426
+P00439,81,Female,Hypertension,DrugD,284,44,1.150051639225247,None,Heart Disease,MarkerA,Negative,77.78719733664605
+P00440,84,Female,None,DrugC,364,7,35.90572765917014,Nausea,Diabetes,MarkerB,Negative,90.54896626323426
+P00441,74,Male,Diabetes,DrugA,220,19,75.78511000374567,None,Heart Disease,MarkerB,Negative,70.12308919044439
+P00442,26,Female,Cancer,DrugB,447,40,39.79590126982207,Dizziness,Diabetes,MarkerB,Negative,98.99149299888751
+P00443,58,Male,Hypertension,DrugD,71,15,44.63722273134422,None,Heart Disease,MarkerA,Positive,57.72893994261413
+P00444,74,Male,None,DrugA,220,45,78.99466243072236,None,Diabetes,MarkerB,Positive,65.1348643651585
+P00445,55,Male,Cancer,DrugD,261,38,88.58887379754822,Dizziness,Diabetes,MarkerC,Negative,67.29349729190648
+P00446,33,Female,Hypertension,DrugB,424,21,27.616799222411835,Fatigue,Heart Disease,MarkerC,Negative,65.6506922902978
+P00447,71,Female,Diabetes,DrugC,385,15,38.59968306068332,Nausea,Breast Cancer,MarkerA,Positive,73.60142471196714
+P00448,70,Female,Diabetes,DrugC,59,17,80.77571274448354,Nausea,Lung Cancer,MarkerA,Positive,77.93005373790817
+P00449,32,Male,Cancer,DrugC,408,33,41.76667537496659,None,Lung Cancer,MarkerA,Positive,98.84890105340484
+P00450,85,Female,Diabetes,DrugA,165,32,50.909169761189986,None,Lung Cancer,MarkerD,Positive,56.40980489677981
+P00451,68,Male,Diabetes,DrugC,263,39,6.930053477378129,Nausea,Breast Cancer,MarkerC,Negative,57.11296023745639
+P00452,52,Male,Diabetes,DrugD,251,14,47.17462159946706,Nausea,Diabetes,MarkerB,Positive,53.23722639148469
+P00453,42,Male,Cancer,DrugD,298,14,61.69154440320032,None,Lung Cancer,MarkerA,Negative,82.03705166815023
+P00454,70,Female,Diabetes,DrugB,126,7,37.30519961702584,Nausea,Heart Disease,MarkerC,Negative,57.33716314281974
+P00455,24,Male,Cancer,DrugC,392,36,69.28900571469093,None,Lung Cancer,MarkerC,Positive,67.91982698875354
+P00456,26,Male,None,DrugA,275,31,2.2235585377566647,Nausea,Lung Cancer,MarkerB,Negative,60.80341305297666
+P00457,51,Male,Cancer,DrugC,69,17,32.72206450082854,Nausea,Heart Disease,MarkerB,Negative,53.563285385933106
+P00458,83,Male,Hypertension,DrugA,320,33,1.9901556445840796,None,Diabetes,MarkerD,Positive,84.37216726497368
+P00459,40,Male,Diabetes,DrugD,53,32,50.29792326998616,None,Heart Disease,MarkerB,Negative,66.4003509305523
+P00460,23,Female,Diabetes,DrugB,277,53,47.48117083082993,Fatigue,Breast Cancer,MarkerB,Positive,98.8740773833812
+P00461,60,Male,Cancer,DrugD,165,6,71.40786161335274,None,Diabetes,MarkerA,Negative,72.77436850194067
+P00462,25,Female,None,DrugA,386,53,89.25501261232039,Nausea,Breast Cancer,MarkerD,Positive,98.45527825483
+P00463,57,Female,Hypertension,DrugB,121,13,11.312797405727537,Nausea,Heart Disease,MarkerB,Positive,83.92275885727332
+P00464,42,Male,None,DrugC,212,15,18.511600696472385,Dizziness,Heart Disease,MarkerD,Negative,95.36495941243969
+P00465,87,Male,Cancer,DrugD,146,56,82.55683488399515,Fatigue,Breast Cancer,MarkerD,Positive,72.31671242825712
+P00466,65,Male,Hypertension,DrugC,352,6,35.7213889590457,Dizziness,Breast Cancer,MarkerD,Positive,53.276931978022105
+P00467,86,Female,Diabetes,DrugB,317,56,46.10440423669201,None,Diabetes,MarkerA,Positive,83.39154548459513
+P00468,79,Female,Cancer,DrugD,129,45,9.602127534476669,Fatigue,Heart Disease,MarkerB,Negative,66.01912083447306
+P00469,45,Female,None,DrugD,55,48,30.413229591576652,Dizziness,Breast Cancer,MarkerA,Positive,77.59931195215829
+P00470,80,Female,Cancer,DrugB,405,50,40.8437087278046,Fatigue,Diabetes,MarkerB,Negative,86.77023952988347
+P00471,33,Female,Hypertension,DrugD,85,6,77.5560850370119,Dizziness,Breast Cancer,MarkerA,Negative,83.98073702600627
+P00472,64,Female,None,DrugC,295,55,15.308876176768049,Fatigue,Heart Disease,MarkerB,Positive,60.09535022883642
+P00473,28,Male,Cancer,DrugB,393,33,46.065304723800836,None,Heart Disease,MarkerC,Negative,53.78801271381111
+P00474,88,Female,None,DrugD,493,56,21.601847629772454,Dizziness,Diabetes,MarkerA,Negative,60.192064533544745
+P00475,44,Female,Hypertension,DrugB,114,54,61.251722459446945,Nausea,Diabetes,MarkerC,Negative,76.71300595899113
+P00476,25,Female,Cancer,DrugC,485,12,94.87863809914873,Fatigue,Lung Cancer,MarkerC,Positive,78.05602917069585
+P00477,19,Male,None,DrugC,99,46,86.42727363862346,Nausea,Diabetes,MarkerD,Positive,67.7103922547926
+P00478,36,Male,Hypertension,DrugB,489,12,57.52743873413226,Nausea,Lung Cancer,MarkerB,Negative,90.17119643899495
+P00479,61,Female,Cancer,DrugD,423,22,68.11245212253152,Fatigue,Diabetes,MarkerA,Negative,99.16273294827161
+P00480,79,Female,Cancer,DrugD,59,48,71.35364189799711,Nausea,Diabetes,MarkerC,Negative,51.857470960534975
+P00481,53,Female,Cancer,DrugD,491,58,76.60157656984732,Nausea,Heart Disease,MarkerB,Positive,87.57383707816464
+P00482,61,Female,Diabetes,DrugC,104,39,2.58651762103832,None,Lung Cancer,MarkerA,Negative,58.47771937811929
+P00483,76,Male,Diabetes,DrugD,139,43,57.04410532429917,Nausea,Heart Disease,MarkerC,Positive,62.08953377602269
+P00484,61,Male,Diabetes,DrugD,338,45,56.43027228001183,Fatigue,Breast Cancer,MarkerA,Positive,94.71432393017017
+P00485,37,Male,Cancer,DrugA,228,33,62.648419854136584,Fatigue,Diabetes,MarkerC,Positive,51.319365763702656
+P00486,28,Male,Hypertension,DrugD,353,42,35.848990503866574,Nausea,Heart Disease,MarkerD,Negative,81.81193200305573
+P00487,73,Female,Cancer,DrugC,110,28,80.23881958643032,None,Breast Cancer,MarkerB,Negative,67.20815974308559
+P00488,67,Female,None,DrugC,76,13,81.80091473486995,Fatigue,Diabetes,MarkerD,Positive,77.8925938540325
+P00489,89,Male,None,DrugC,327,22,44.70093005546308,Dizziness,Diabetes,MarkerC,Negative,91.97558904575916
+P00490,49,Female,Diabetes,DrugB,183,43,69.1629081236874,Fatigue,Diabetes,MarkerB,Positive,72.28389083335964
+P00491,68,Female,Cancer,DrugA,499,30,4.527215678390917,Fatigue,Lung Cancer,MarkerD,Negative,53.329311179662305
+P00492,35,Female,None,DrugD,88,20,97.58164469566518,Nausea,Heart Disease,MarkerC,Positive,72.47391635876176
+P00493,39,Female,Diabetes,DrugC,286,41,53.712044776286795,None,Diabetes,MarkerA,Positive,65.83944890514232
+P00494,85,Male,Cancer,DrugC,314,35,72.97826611309046,Nausea,Diabetes,MarkerA,Negative,75.92706112706324
+P00495,53,Female,Hypertension,DrugA,63,23,90.39377138787266,None,Breast Cancer,MarkerB,Positive,57.5495674222733
+P00496,59,Female,Hypertension,DrugD,273,45,58.47751891023481,None,Lung Cancer,MarkerD,Negative,62.42707948867671
+P00497,54,Male,Hypertension,DrugD,339,48,65.9236814504303,Dizziness,Diabetes,MarkerB,Negative,75.94902156506885
+P00498,77,Male,Diabetes,DrugB,324,54,91.44232094454028,Nausea,Breast Cancer,MarkerB,Positive,54.528045163789145
+P00499,44,Female,Hypertension,DrugC,488,49,58.056133361887454,Nausea,Lung Cancer,MarkerC,Negative,88.52467204078627
+P00500,70,Female,Diabetes,DrugB,282,45,83.77845270721444,None,Lung Cancer,MarkerD,Negative,72.39007067724867
+P00501,51,Female,Hypertension,DrugA,239,42,39.62048582496737,Dizziness,Heart Disease,MarkerC,Positive,87.68475040936906
+P00502,81,Male,Diabetes,DrugD,429,9,12.755740698860773,None,Diabetes,MarkerC,Positive,79.7797031881745
+P00503,61,Female,Cancer,DrugA,455,12,5.04457615722389,Dizziness,Heart Disease,MarkerD,Positive,70.96201819821945
+P00504,66,Female,Diabetes,DrugB,150,6,72.90707529261454,Fatigue,Breast Cancer,MarkerA,Positive,91.73660234151103
+P00505,21,Male,Hypertension,DrugD,137,19,65.24416225966108,Dizziness,Lung Cancer,MarkerC,Negative,89.17937220715865
+P00506,84,Male,Cancer,DrugA,465,28,54.286479121303465,Fatigue,Breast Cancer,MarkerA,Positive,66.57378527456012
+P00507,24,Female,Cancer,DrugA,268,22,17.60230425578577,Fatigue,Heart Disease,MarkerD,Positive,97.23328291818248
+P00508,57,Female,Diabetes,DrugC,422,39,51.49643205835758,None,Heart Disease,MarkerD,Positive,78.65580099999485
+P00509,86,Female,Cancer,DrugA,190,19,66.86692054184597,None,Lung Cancer,MarkerC,Positive,68.19308227911506
+P00510,24,Male,Hypertension,DrugA,129,36,30.304985580240494,None,Breast Cancer,MarkerB,Negative,67.09018634782139
+P00511,52,Female,Diabetes,DrugB,402,5,26.932794286249027,Dizziness,Diabetes,MarkerD,Positive,61.21313140138383
+P00512,47,Male,Cancer,DrugB,198,25,37.67351009443879,Nausea,Lung Cancer,MarkerC,Positive,79.82309307586166
+P00513,40,Female,None,DrugA,103,18,35.9373543473277,Nausea,Breast Cancer,MarkerA,Positive,55.6924494993005
+P00514,41,Male,None,DrugA,118,22,37.77038212555935,None,Heart Disease,MarkerA,Positive,63.34585293071263
+P00515,73,Male,Diabetes,DrugA,401,44,91.13379776749485,Fatigue,Heart Disease,MarkerC,Negative,60.84463187950696
+P00516,86,Male,Hypertension,DrugC,113,42,1.1180956195586678,Fatigue,Diabetes,MarkerB,Positive,81.26349382709789
+P00517,88,Male,Hypertension,DrugB,73,50,89.33817760483801,Dizziness,Breast Cancer,MarkerB,Negative,70.05201055112876
+P00518,74,Female,Cancer,DrugC,151,36,47.20800383250386,Nausea,Diabetes,MarkerA,Negative,50.876031182710584
+P00519,59,Male,Cancer,DrugC,74,56,30.33650282484842,None,Diabetes,MarkerC,Positive,52.78989781112272
+P00520,81,Female,Cancer,DrugC,281,44,57.8820445366842,Nausea,Diabetes,MarkerA,Negative,82.08980686998471
+P00521,51,Male,None,DrugC,162,56,51.169124507816434,Fatigue,Diabetes,MarkerC,Positive,97.469134795488
+P00522,59,Male,Cancer,DrugD,499,26,66.69607199974867,None,Diabetes,MarkerB,Positive,78.64225704120153
+P00523,35,Male,Diabetes,DrugC,376,40,9.71461377752043,Fatigue,Diabetes,MarkerD,Positive,56.22283154744396
+P00524,79,Male,Cancer,DrugA,124,44,27.808745261761747,None,Breast Cancer,MarkerA,Positive,54.86737223928845
+P00525,50,Male,Diabetes,DrugA,467,19,85.95406035654338,None,Lung Cancer,MarkerC,Negative,74.14018456319032
+P00526,76,Male,None,DrugC,295,12,0.2539102274767169,Fatigue,Heart Disease,MarkerD,Positive,83.26495250585523
+P00527,23,Female,None,DrugC,232,33,21.45061498637524,Dizziness,Lung Cancer,MarkerD,Positive,57.344796019185466
+P00528,66,Female,Diabetes,DrugA,272,58,45.68348797418581,Fatigue,Diabetes,MarkerA,Positive,54.35342837136465
+P00529,52,Male,Diabetes,DrugB,94,16,99.20198251277922,Dizziness,Heart Disease,MarkerA,Positive,67.64838480328066
+P00530,89,Female,Cancer,DrugD,86,44,0.8199646844782582,None,Diabetes,MarkerB,Negative,79.83254360470349
+P00531,40,Female,Hypertension,DrugD,98,23,16.501463686708195,Dizziness,Diabetes,MarkerB,Negative,86.60384779313685
+P00532,60,Female,Hypertension,DrugA,61,23,95.6496970967471,None,Diabetes,MarkerD,Negative,58.781702806987035
+P00533,89,Male,Cancer,DrugB,228,56,97.5978266299581,Fatigue,Lung Cancer,MarkerA,Positive,53.059937049629326
+P00534,60,Male,Hypertension,DrugC,427,38,79.963502613018,Dizziness,Lung Cancer,MarkerD,Positive,63.554738877480034
+P00535,40,Female,Cancer,DrugA,142,22,6.885580769755628,Nausea,Diabetes,MarkerC,Positive,98.45314493270226
+P00536,57,Female,Hypertension,DrugD,436,25,75.22951540682439,None,Heart Disease,MarkerB,Negative,62.65723787591311
+P00537,79,Male,Diabetes,DrugA,123,57,41.6557909106296,Dizziness,Lung Cancer,MarkerC,Positive,99.17842471250674
+P00538,79,Male,Hypertension,DrugC,352,35,14.963422029600205,Dizziness,Heart Disease,MarkerD,Positive,70.82732194054114
+P00539,48,Female,Cancer,DrugA,278,43,51.349040091059926,None,Breast Cancer,MarkerC,Positive,52.21047762270399
+P00540,88,Female,Cancer,DrugB,272,56,22.869741002995326,Nausea,Breast Cancer,MarkerC,Positive,54.29758973367164
+P00541,27,Male,Cancer,DrugC,266,30,0.31097558135521064,Fatigue,Heart Disease,MarkerC,Positive,59.93740873102945
+P00542,73,Female,Hypertension,DrugA,150,7,58.85672585232249,Fatigue,Diabetes,MarkerB,Positive,67.16878539065092
+P00543,45,Male,Hypertension,DrugB,153,43,61.35368332274203,Dizziness,Diabetes,MarkerB,Negative,76.78594849351308
+P00544,33,Female,None,DrugB,366,12,1.444819921184759,None,Lung Cancer,MarkerA,Positive,54.405856542992325
+P00545,84,Male,Hypertension,DrugD,336,11,42.55570139943535,Nausea,Diabetes,MarkerC,Negative,95.89916514820922
+P00546,28,Female,Cancer,DrugA,341,42,74.96886416149069,Nausea,Diabetes,MarkerB,Positive,95.43219891055251
+P00547,76,Female,None,DrugC,333,59,33.14440616904092,Nausea,Heart Disease,MarkerA,Negative,74.86054346034882
+P00548,64,Female,Diabetes,DrugB,150,27,27.88892648150614,None,Breast Cancer,MarkerB,Negative,76.29616380778326
+P00549,27,Female,Hypertension,DrugA,223,21,40.6015739438508,Dizziness,Heart Disease,MarkerA,Positive,94.90162133764827
+P00550,72,Female,Diabetes,DrugC,119,27,56.703076894059215,Fatigue,Breast Cancer,MarkerC,Positive,71.27407697088118
+P00551,88,Female,Cancer,DrugD,186,44,35.28622105305542,Fatigue,Lung Cancer,MarkerC,Negative,66.005429384347
+P00552,71,Female,None,DrugB,365,21,0.7744025619930484,Nausea,Heart Disease,MarkerA,Positive,50.524663490741375
+P00553,43,Female,None,DrugC,96,57,0.32198974589260354,None,Lung Cancer,MarkerA,Negative,69.0202676949753
+P00554,49,Male,Cancer,DrugA,72,15,83.87733775549331,Fatigue,Diabetes,MarkerC,Positive,77.19360831699487
+P00555,46,Male,Cancer,DrugD,468,46,52.29284154880196,Fatigue,Breast Cancer,MarkerD,Positive,91.45306532341723
+P00556,64,Male,None,DrugC,306,15,32.553737675511606,Dizziness,Heart Disease,MarkerB,Positive,88.0322959245884
+P00557,79,Male,None,DrugD,368,55,28.93380463484927,Dizziness,Breast Cancer,MarkerA,Positive,56.94728609949889
+P00558,37,Male,Cancer,DrugA,306,9,65.01679385112197,Dizziness,Heart Disease,MarkerA,Negative,78.31748496426118
+P00559,45,Female,None,DrugB,429,15,99.75736636268232,Nausea,Diabetes,MarkerD,Negative,83.68462305600355
+P00560,25,Female,None,DrugA,262,25,21.201091792715687,None,Diabetes,MarkerD,Positive,58.693108974786675
+P00561,74,Male,Diabetes,DrugA,387,17,88.03131931934733,Nausea,Breast Cancer,MarkerD,Positive,69.79252893446511
+P00562,53,Female,Diabetes,DrugC,441,30,49.52287775869638,Nausea,Diabetes,MarkerA,Positive,53.50094668870201
+P00563,31,Male,None,DrugA,209,34,37.93120970993259,Dizziness,Diabetes,MarkerD,Positive,79.4224766968039
+P00564,60,Male,Diabetes,DrugD,195,51,29.37110633362736,None,Lung Cancer,MarkerA,Negative,78.78716984521583
+P00565,81,Female,Hypertension,DrugA,465,39,49.49959252229231,Dizziness,Diabetes,MarkerA,Negative,69.72406640925628
+P00566,50,Female,Diabetes,DrugA,344,18,74.84830572893065,Nausea,Breast Cancer,MarkerA,Negative,81.57997097524382
+P00567,67,Male,None,DrugD,412,53,22.76571125065888,None,Heart Disease,MarkerC,Positive,63.91418417041804
+P00568,60,Male,Cancer,DrugD,289,14,83.2302644538989,Nausea,Diabetes,MarkerB,Positive,94.01448103220238
+P00569,63,Male,None,DrugA,262,54,60.177635357187896,Fatigue,Diabetes,MarkerC,Positive,60.49020768987968
+P00570,20,Male,Diabetes,DrugC,293,37,77.74333251036755,Fatigue,Breast Cancer,MarkerA,Positive,50.002237392753244
+P00571,38,Male,Cancer,DrugD,437,43,21.14688319838255,Nausea,Heart Disease,MarkerC,Negative,55.34344872662308
+P00572,83,Male,Diabetes,DrugA,342,59,75.06858950469322,Fatigue,Heart Disease,MarkerD,Positive,82.92865829887393
+P00573,20,Male,Hypertension,DrugA,397,47,20.678421986296126,None,Lung Cancer,MarkerD,Positive,68.40756307236711
+P00574,18,Female,Cancer,DrugD,272,14,16.725276741388974,Nausea,Diabetes,MarkerB,Negative,81.40585869085123
+P00575,75,Male,Cancer,DrugC,475,44,5.29672770211429,Nausea,Lung Cancer,MarkerC,Negative,87.13371722095027
+P00576,30,Female,Hypertension,DrugC,434,32,71.09919554861823,Nausea,Diabetes,MarkerA,Negative,77.61865023968392
+P00577,45,Female,Diabetes,DrugB,205,53,70.82453862580641,None,Lung Cancer,MarkerD,Positive,63.09674438264849
+P00578,63,Male,Hypertension,DrugC,398,56,91.11516057145698,Fatigue,Diabetes,MarkerC,Negative,76.23858282814125
+P00579,43,Female,Hypertension,DrugC,423,31,90.21505572326967,Dizziness,Diabetes,MarkerC,Positive,54.315395700899515
+P00580,31,Male,None,DrugD,461,51,90.32988110885157,Nausea,Lung Cancer,MarkerA,Negative,90.35739482939269
+P00581,45,Female,Diabetes,DrugB,443,45,92.2560493033156,Fatigue,Breast Cancer,MarkerA,Positive,93.09363990639602
+P00582,77,Male,Diabetes,DrugB,206,43,18.371844631762947,Dizziness,Lung Cancer,MarkerA,Positive,77.55207595215063
+P00583,50,Male,Hypertension,DrugD,487,35,47.4523410466435,Dizziness,Lung Cancer,MarkerD,Positive,85.49829225957924
+P00584,57,Female,Cancer,DrugC,287,51,32.59659376356032,None,Heart Disease,MarkerC,Negative,70.70849998036958
+P00585,53,Female,None,DrugA,431,34,27.882163867319875,None,Diabetes,MarkerB,Negative,71.50470193953623
+P00586,76,Female,None,DrugB,72,41,11.69902279156706,Nausea,Breast Cancer,MarkerC,Negative,93.85989439970218
+P00587,63,Male,Cancer,DrugD,210,34,23.141315780359662,None,Lung Cancer,MarkerC,Positive,99.13014998504511
+P00588,58,Male,Cancer,DrugA,159,36,95.60141877162519,Dizziness,Heart Disease,MarkerA,Negative,56.47385454638729
+P00589,77,Male,Hypertension,DrugA,270,18,57.22382722150884,None,Lung Cancer,MarkerB,Negative,67.87662584384472
+P00590,24,Female,None,DrugD,109,51,58.66700243623594,Nausea,Diabetes,MarkerC,Negative,78.39750775088574
+P00591,21,Female,Diabetes,DrugC,325,12,80.540734114241,None,Heart Disease,MarkerD,Negative,93.10493278370328
+P00592,78,Male,None,DrugA,326,58,90.41610555795599,Fatigue,Breast Cancer,MarkerB,Positive,85.95999005349543
+P00593,58,Female,None,DrugB,393,53,23.0980232256235,Fatigue,Lung Cancer,MarkerC,Negative,72.1468238961333
+P00594,64,Male,None,DrugC,445,54,32.388509687670776,Fatigue,Diabetes,MarkerD,Negative,75.32675318612031
+P00595,84,Male,None,DrugC,99,17,86.35677179785036,Fatigue,Lung Cancer,MarkerD,Negative,73.98671374184661
+P00596,31,Female,Hypertension,DrugB,115,41,20.469683718939237,Fatigue,Breast Cancer,MarkerD,Positive,84.16573545413347
+P00597,82,Female,Cancer,DrugB,284,17,35.59302419978715,Nausea,Heart Disease,MarkerA,Negative,68.26671668279096
+P00598,65,Female,Cancer,DrugB,478,36,39.01640500309658,Dizziness,Heart Disease,MarkerB,Positive,63.55400311617209
+P00599,47,Female,Diabetes,DrugD,493,33,27.555328685388304,Fatigue,Diabetes,MarkerC,Negative,89.38520109234975
+P00600,82,Female,Diabetes,DrugA,190,22,66.68933511283093,None,Breast Cancer,MarkerC,Positive,59.867136123818014
+P00601,75,Male,Diabetes,DrugB,354,33,78.42324262090081,Dizziness,Lung Cancer,MarkerA,Negative,80.7250123073066
+P00602,53,Male,Hypertension,DrugD,175,14,78.83571225200828,Nausea,Diabetes,MarkerA,Positive,78.36236364621948
+P00603,71,Male,Cancer,DrugA,91,5,83.8526537587578,Dizziness,Heart Disease,MarkerA,Positive,87.86073094404406
+P00604,55,Male,Hypertension,DrugD,289,41,78.05294276506243,Nausea,Heart Disease,MarkerD,Negative,78.77504997831666
+P00605,37,Male,Diabetes,DrugB,482,26,23.1215450991369,None,Diabetes,MarkerD,Positive,96.13834044073883
+P00606,27,Male,Cancer,DrugA,484,44,45.953431745958206,Dizziness,Diabetes,MarkerD,Positive,64.16533148482154
+P00607,55,Female,Cancer,DrugB,138,17,16.612164672546836,None,Breast Cancer,MarkerC,Negative,57.753263082826045
+P00608,51,Male,Hypertension,DrugD,84,22,86.86812097494507,None,Heart Disease,MarkerC,Negative,81.18996618685365
+P00609,79,Male,Diabetes,DrugA,471,6,22.12251975862668,Fatigue,Lung Cancer,MarkerC,Negative,68.95719750370398
+P00610,55,Male,None,DrugB,177,30,16.872311271312746,Dizziness,Lung Cancer,MarkerC,Positive,53.95970056471745
+P00611,85,Male,None,DrugB,323,20,18.3302735773364,Nausea,Breast Cancer,MarkerA,Negative,53.436683053242554
+P00612,72,Female,Hypertension,DrugD,462,8,83.48410574829308,Nausea,Lung Cancer,MarkerC,Positive,93.09983122771455
+P00613,83,Male,Hypertension,DrugA,486,31,64.78279699323484,Nausea,Diabetes,MarkerA,Negative,59.61043589602509
+P00614,44,Female,Hypertension,DrugA,425,42,99.60095407913742,Nausea,Diabetes,MarkerA,Positive,86.92027442735484
+P00615,22,Female,Hypertension,DrugB,261,9,4.903287194831163,None,Heart Disease,MarkerC,Positive,78.57006497611323
+P00616,18,Female,Cancer,DrugC,107,16,39.37439587224421,Nausea,Breast Cancer,MarkerC,Negative,81.28338221608558
+P00617,61,Female,Cancer,DrugA,435,11,11.099089816114427,None,Heart Disease,MarkerC,Negative,56.550598893016335
+P00618,64,Female,Diabetes,DrugC,325,27,65.04190705833508,None,Lung Cancer,MarkerA,Positive,95.13798430514291
+P00619,89,Male,None,DrugB,271,46,96.32827892156001,Nausea,Breast Cancer,MarkerB,Positive,85.60607857077486
+P00620,41,Female,Hypertension,DrugD,252,11,14.109047877619673,None,Breast Cancer,MarkerB,Negative,96.78301273428758
+P00621,81,Female,None,DrugB,484,20,66.037809484829,None,Heart Disease,MarkerD,Positive,92.11489760245429
+P00622,45,Female,Diabetes,DrugD,496,53,41.15238741464719,Nausea,Lung Cancer,MarkerA,Positive,97.39761381097651
+P00623,55,Male,Cancer,DrugB,201,25,38.634958435659684,Dizziness,Heart Disease,MarkerA,Negative,63.21096536365337
+P00624,75,Male,Diabetes,DrugC,465,26,90.1226801514855,None,Breast Cancer,MarkerB,Negative,63.18974789922619
+P00625,85,Female,Cancer,DrugC,64,29,27.37705339526768,Dizziness,Breast Cancer,MarkerA,Negative,92.20741664667906
+P00626,50,Female,Diabetes,DrugA,302,42,4.337533853707088,Fatigue,Diabetes,MarkerD,Negative,57.38177859107893
+P00627,67,Male,Hypertension,DrugC,85,39,4.142888906616449,None,Lung Cancer,MarkerD,Positive,87.9779299600353
+P00628,80,Male,None,DrugC,281,56,66.81610508587367,Fatigue,Breast Cancer,MarkerA,Positive,97.25077451909543
+P00629,89,Male,Hypertension,DrugD,491,17,68.59468369563383,None,Heart Disease,MarkerB,Positive,80.0235087877042
+P00630,34,Male,None,DrugB,486,57,81.61620194949413,Dizziness,Breast Cancer,MarkerD,Negative,59.36250752540326
+P00631,58,Female,Hypertension,DrugA,196,21,78.84815023236739,Dizziness,Heart Disease,MarkerC,Positive,82.70385154498396
+P00632,66,Male,Hypertension,DrugB,87,8,95.8212586458198,Dizziness,Heart Disease,MarkerB,Positive,58.878283642082984
+P00633,27,Female,Hypertension,DrugB,230,45,7.525254994059438,None,Breast Cancer,MarkerB,Negative,83.63987079397423
+P00634,34,Male,None,DrugB,373,6,39.574732915763335,Nausea,Lung Cancer,MarkerB,Negative,70.75620094348436
+P00635,73,Female,Cancer,DrugC,256,30,41.570123127392456,Nausea,Diabetes,MarkerD,Positive,89.66468038850098
+P00636,30,Female,None,DrugD,454,46,93.20427496183449,Dizziness,Diabetes,MarkerB,Negative,84.4755835357584
+P00637,24,Male,Diabetes,DrugB,107,19,20.97086660876216,None,Breast Cancer,MarkerB,Negative,74.34569257974908
+P00638,23,Female,Diabetes,DrugD,170,38,77.87310456221304,Fatigue,Heart Disease,MarkerB,Negative,92.60162287701773
+P00639,85,Female,None,DrugA,303,38,58.32823168467559,Fatigue,Heart Disease,MarkerB,Negative,76.63269026629655
+P00640,80,Male,Diabetes,DrugB,484,27,62.47203450250877,None,Breast Cancer,MarkerA,Positive,58.7137135422868
+P00641,71,Male,Cancer,DrugD,440,14,31.255425130092195,Nausea,Breast Cancer,MarkerC,Negative,87.27229352276393
+P00642,85,Female,Hypertension,DrugD,394,8,2.7528047402410216,Fatigue,Breast Cancer,MarkerD,Negative,67.54840857315531
+P00643,54,Male,Hypertension,DrugD,68,23,2.7720940417634288,Dizziness,Heart Disease,MarkerC,Negative,56.91390788206348
+P00644,34,Male,Cancer,DrugA,205,18,77.72100550151325,Nausea,Heart Disease,MarkerD,Negative,53.17190364477893
+P00645,82,Female,None,DrugD,310,46,38.853288503178554,None,Lung Cancer,MarkerA,Negative,80.7326536344359
+P00646,56,Male,None,DrugB,95,5,34.76692118200386,Dizziness,Breast Cancer,MarkerB,Negative,98.14193080533369
+P00647,36,Female,Hypertension,DrugD,232,8,80.84009964453637,None,Heart Disease,MarkerD,Positive,97.56945836901046
+P00648,50,Female,Diabetes,DrugA,318,51,97.05777718569834,Nausea,Lung Cancer,MarkerA,Positive,81.93700723535412
+P00649,63,Female,Cancer,DrugB,90,10,34.158787408263905,Nausea,Heart Disease,MarkerC,Positive,75.14609288375435
+P00650,61,Female,Hypertension,DrugC,254,24,15.952836315342811,None,Diabetes,MarkerB,Positive,68.59045671180546
+P00651,55,Female,Cancer,DrugA,192,6,78.07631265158444,Dizziness,Diabetes,MarkerB,Negative,52.57931148692145
+P00652,63,Male,Diabetes,DrugD,274,9,38.1567322369181,Fatigue,Heart Disease,MarkerA,Positive,50.24779297452799
+P00653,37,Female,Hypertension,DrugA,241,7,62.5581530227011,Fatigue,Lung Cancer,MarkerC,Positive,78.85587005546614
+P00654,43,Female,Diabetes,DrugD,87,9,34.14477057995809,None,Heart Disease,MarkerD,Negative,60.00390146623818
+P00655,23,Female,Cancer,DrugD,58,24,46.78771041435208,Fatigue,Breast Cancer,MarkerB,Positive,73.8864895765783
+P00656,89,Male,None,DrugB,169,40,59.54039555452236,None,Heart Disease,MarkerB,Negative,86.08892131865754
+P00657,68,Male,Diabetes,DrugD,331,5,6.752839180532611,Dizziness,Heart Disease,MarkerD,Positive,80.29017299834706
+P00658,53,Male,None,DrugD,405,24,96.14802856581896,None,Heart Disease,MarkerB,Positive,86.47549243690054
+P00659,74,Female,Hypertension,DrugD,59,35,84.325763973674,None,Lung Cancer,MarkerD,Positive,74.16461071009775
+P00660,73,Female,Cancer,DrugC,394,49,75.52854505363335,Nausea,Breast Cancer,MarkerC,Positive,87.31860443232551
+P00661,86,Female,Cancer,DrugA,345,45,70.57797576832286,None,Breast Cancer,MarkerD,Positive,88.83606247569178
+P00662,71,Male,Cancer,DrugD,395,5,76.12992536810626,Fatigue,Diabetes,MarkerB,Negative,74.19355268984519
+P00663,51,Female,None,DrugA,416,50,30.804027679160694,Dizziness,Breast Cancer,MarkerA,Negative,59.48724701303959
+P00664,69,Male,Diabetes,DrugD,307,23,78.7993007782975,None,Heart Disease,MarkerB,Positive,89.31976665810632
+P00665,61,Male,Hypertension,DrugD,94,31,47.85168498022533,Fatigue,Diabetes,MarkerA,Positive,69.0042464505899
+P00666,79,Female,Hypertension,DrugA,392,38,46.8492470124632,Dizziness,Breast Cancer,MarkerB,Positive,56.464533884139016
+P00667,33,Female,None,DrugA,277,11,90.95398347956422,Dizziness,Breast Cancer,MarkerA,Positive,97.77598898039193
+P00668,48,Male,Hypertension,DrugB,269,43,41.022659575122454,Dizziness,Breast Cancer,MarkerD,Positive,80.53841437591126
+P00669,87,Male,Cancer,DrugC,126,16,92.07523477166578,Nausea,Heart Disease,MarkerC,Negative,71.22466634791502
+P00670,30,Female,Hypertension,DrugB,416,59,71.2457197144684,None,Heart Disease,MarkerB,Negative,94.81262024727904
+P00671,26,Female,Cancer,DrugC,201,13,18.423769663596936,Nausea,Lung Cancer,MarkerD,Positive,80.13639690559414
+P00672,48,Male,None,DrugC,418,7,78.99299222786374,Fatigue,Diabetes,MarkerC,Negative,50.666743765749686
+P00673,41,Female,Diabetes,DrugB,456,51,54.63605200711312,None,Heart Disease,MarkerD,Positive,91.49896280366966
+P00674,52,Male,None,DrugD,420,11,22.658816897263556,None,Breast Cancer,MarkerC,Positive,61.95277607229528
+P00675,79,Male,None,DrugD,124,58,72.46769340399901,Nausea,Diabetes,MarkerB,Negative,68.03544035848127
+P00676,70,Male,Diabetes,DrugB,70,38,76.86414057096037,Nausea,Heart Disease,MarkerA,Negative,65.69324324960716
+P00677,58,Female,Cancer,DrugD,455,57,36.1238202651315,Nausea,Heart Disease,MarkerD,Negative,71.75912132204694
+P00678,45,Female,Cancer,DrugD,405,8,55.06471578094164,Nausea,Breast Cancer,MarkerB,Positive,69.203654911402
+P00679,33,Male,Cancer,DrugB,431,40,4.131557090002024,Dizziness,Diabetes,MarkerC,Negative,64.15161038596963
+P00680,81,Male,Cancer,DrugB,174,8,77.30465828020563,None,Diabetes,MarkerC,Negative,79.10311161957176
+P00681,68,Female,Hypertension,DrugD,360,58,26.691622054781263,Nausea,Breast Cancer,MarkerA,Positive,97.05415882840478
+P00682,46,Male,Hypertension,DrugD,258,34,67.52451921533796,Fatigue,Lung Cancer,MarkerC,Positive,67.05178795043847
+P00683,40,Male,None,DrugA,73,48,83.94172637491785,Fatigue,Heart Disease,MarkerC,Negative,97.95139567268683
+P00684,78,Male,None,DrugD,386,12,41.12106170167377,Dizziness,Lung Cancer,MarkerC,Negative,90.20364905391814
+P00685,69,Female,Diabetes,DrugB,199,11,98.9814319030071,None,Breast Cancer,MarkerD,Negative,76.87520015333463
+P00686,72,Female,Cancer,DrugD,228,24,51.022376338187705,Dizziness,Diabetes,MarkerB,Positive,54.345220044048986
+P00687,86,Male,None,DrugB,260,30,75.2701103746379,None,Lung Cancer,MarkerB,Negative,89.3580074859007
+P00688,31,Female,Hypertension,DrugA,470,30,27.388068147901823,Nausea,Diabetes,MarkerB,Positive,62.05753955435658
+P00689,23,Male,None,DrugD,222,56,52.447517068964366,Dizziness,Lung Cancer,MarkerC,Negative,79.90294447552292
+P00690,35,Female,None,DrugD,114,45,77.52419197966758,None,Lung Cancer,MarkerC,Positive,50.847806275242846
+P00691,78,Male,None,DrugB,178,40,82.70345072035754,Fatigue,Heart Disease,MarkerC,Negative,98.56762493068372
+P00692,21,Male,None,DrugB,294,58,88.80258740032458,None,Lung Cancer,MarkerA,Negative,94.92852450968383
+P00693,34,Male,Diabetes,DrugC,283,37,87.46475336858467,None,Diabetes,MarkerD,Negative,89.83522705094401
+P00694,46,Female,Diabetes,DrugD,94,49,6.199527741092837,Nausea,Breast Cancer,MarkerC,Negative,89.91886743088122
+P00695,65,Male,None,DrugB,114,30,24.41395433602399,None,Breast Cancer,MarkerB,Negative,96.74173195879224
+P00696,79,Male,Hypertension,DrugA,263,51,10.407109261517943,Nausea,Lung Cancer,MarkerB,Negative,62.88447600511836
+P00697,64,Female,Hypertension,DrugB,487,16,86.51656302623194,Fatigue,Breast Cancer,MarkerD,Positive,52.03434613415246
+P00698,46,Male,Hypertension,DrugA,457,29,76.78564320416896,Fatigue,Diabetes,MarkerD,Positive,61.926664936762705
+P00699,56,Female,Cancer,DrugA,247,6,34.4101391971925,None,Breast Cancer,MarkerD,Positive,74.40052300804504
+P00700,85,Male,Diabetes,DrugB,326,38,15.644170696698955,Dizziness,Lung Cancer,MarkerA,Positive,80.53915272319156
+P00701,42,Female,None,DrugA,189,50,72.45404724525577,Nausea,Breast Cancer,MarkerB,Positive,87.00934368462464
+P00702,72,Male,Diabetes,DrugD,117,5,13.817613012512641,Fatigue,Lung Cancer,MarkerB,Positive,95.85510595504024
+P00703,82,Male,None,DrugC,95,52,41.93246124468121,Nausea,Heart Disease,MarkerA,Positive,75.11052260671387
+P00704,36,Male,Diabetes,DrugA,78,30,18.22988283841869,Dizziness,Diabetes,MarkerC,Negative,71.289938906271
+P00705,62,Female,Hypertension,DrugB,245,48,31.028298618344785,Dizziness,Breast Cancer,MarkerC,Negative,60.23689799038625
+P00706,63,Male,Diabetes,DrugA,253,50,61.80428091424238,Nausea,Lung Cancer,MarkerC,Negative,76.40362397438278
+P00707,76,Female,None,DrugB,484,43,42.092919075896084,None,Diabetes,MarkerC,Positive,77.05101462558932
+P00708,80,Male,Diabetes,DrugD,309,34,68.25961312296228,Dizziness,Lung Cancer,MarkerB,Negative,64.04992449461301
+P00709,29,Male,Hypertension,DrugC,298,11,12.047879744877598,None,Breast Cancer,MarkerB,Negative,60.291066318863145
+P00710,76,Male,Diabetes,DrugB,293,48,62.929176257751806,Dizziness,Diabetes,MarkerA,Positive,84.07973210656303
+P00711,39,Female,Cancer,DrugB,470,37,78.18457956578752,Fatigue,Heart Disease,MarkerB,Negative,58.53180147032185
+P00712,30,Female,None,DrugC,138,58,82.89677997867999,Dizziness,Heart Disease,MarkerD,Negative,52.612895872170164
+P00713,46,Male,Cancer,DrugB,440,38,34.09286121025424,None,Lung Cancer,MarkerA,Negative,90.37982525768518
+P00714,54,Male,Diabetes,DrugA,256,9,94.87345301636181,Dizziness,Breast Cancer,MarkerC,Positive,93.97078740472267
+P00715,34,Female,Diabetes,DrugA,334,25,54.133915020985455,Dizziness,Diabetes,MarkerC,Positive,56.50351906316502
+P00716,40,Female,Hypertension,DrugC,409,19,85.17100352686394,None,Heart Disease,MarkerD,Negative,83.3569264402399
+P00717,85,Female,Diabetes,DrugA,356,54,18.753086570007206,None,Diabetes,MarkerD,Negative,91.33373341591022
+P00718,70,Male,Diabetes,DrugD,410,8,65.87821132683916,Dizziness,Lung Cancer,MarkerD,Negative,85.18643421196649
+P00719,78,Female,Hypertension,DrugD,234,55,81.28510048991879,Dizziness,Breast Cancer,MarkerD,Negative,88.05219378292864
+P00720,52,Male,None,DrugD,412,22,77.96539363524158,Fatigue,Diabetes,MarkerD,Positive,84.12650382338921
+P00721,68,Female,Hypertension,DrugC,131,51,89.80184837907257,Fatigue,Diabetes,MarkerD,Positive,81.34527334372035
+P00722,29,Female,Diabetes,DrugC,67,17,78.5830704204736,Dizziness,Breast Cancer,MarkerB,Negative,82.66225131247211
+P00723,77,Female,Diabetes,DrugC,386,39,91.08210044485574,Nausea,Heart Disease,MarkerC,Negative,57.519253518565016
+P00724,20,Male,Hypertension,DrugD,493,56,55.09323458207429,Fatigue,Diabetes,MarkerB,Negative,65.30519718669441
+P00725,64,Female,None,DrugB,372,12,9.030789924660542,Dizziness,Breast Cancer,MarkerB,Positive,87.37848339159395
+P00726,67,Female,Cancer,DrugD,401,51,49.9774676624391,Fatigue,Diabetes,MarkerC,Negative,80.79036512761215
+P00727,64,Female,None,DrugA,251,23,28.77497979432747,Dizziness,Diabetes,MarkerD,Positive,90.44467311783
+P00728,79,Male,None,DrugB,454,58,80.8325176195707,None,Lung Cancer,MarkerB,Positive,51.571988065261955
+P00729,60,Male,Diabetes,DrugA,453,55,23.395931733880847,Dizziness,Diabetes,MarkerD,Negative,61.402082275949105
+P00730,78,Male,Hypertension,DrugA,59,57,67.06421278684184,Dizziness,Diabetes,MarkerD,Positive,98.84732921088496
+P00731,42,Male,Cancer,DrugB,135,57,94.85188963734102,Fatigue,Breast Cancer,MarkerD,Positive,73.31983727223995
+P00732,56,Male,Hypertension,DrugC,454,30,13.910293189038702,None,Lung Cancer,MarkerD,Positive,73.9167001562575
+P00733,37,Male,Cancer,DrugD,203,43,78.6851744473293,Dizziness,Heart Disease,MarkerA,Positive,79.08941714750232
+P00734,85,Female,Cancer,DrugB,313,57,57.701248765286394,Dizziness,Heart Disease,MarkerC,Positive,74.27463466447824
+P00735,46,Female,Diabetes,DrugB,76,23,86.73158221864954,Nausea,Breast Cancer,MarkerC,Positive,73.15630610793842
+P00736,61,Male,Cancer,DrugA,395,12,98.71069001120706,Fatigue,Diabetes,MarkerA,Positive,98.5133867681031
+P00737,30,Female,Diabetes,DrugB,368,5,97.29535832504831,Nausea,Diabetes,MarkerC,Negative,79.36125409929589
+P00738,40,Male,Hypertension,DrugC,322,45,55.01770819243947,None,Breast Cancer,MarkerA,Negative,60.2660965884141
+P00739,80,Male,Cancer,DrugD,428,30,54.23560571019416,Dizziness,Lung Cancer,MarkerB,Positive,79.09617893728031
+P00740,76,Female,Hypertension,DrugA,70,26,48.65514902773984,Fatigue,Breast Cancer,MarkerA,Positive,76.33697539451343
+P00741,78,Male,Diabetes,DrugC,111,43,69.71124480890418,Fatigue,Lung Cancer,MarkerC,Negative,93.66600666468942
+P00742,53,Female,Cancer,DrugC,479,33,86.82943731178584,None,Diabetes,MarkerA,Positive,97.33973611581803
+P00743,70,Male,Hypertension,DrugB,184,5,62.66609774521121,Dizziness,Breast Cancer,MarkerA,Positive,97.73085575697402
+P00744,46,Male,Hypertension,DrugC,95,9,45.01846249790351,Nausea,Diabetes,MarkerA,Negative,94.38439769772334
+P00745,74,Male,Hypertension,DrugC,228,50,41.53625943230366,Dizziness,Breast Cancer,MarkerC,Positive,57.374621097591884
+P00746,83,Female,Cancer,DrugA,366,36,71.45646226832632,Fatigue,Lung Cancer,MarkerD,Negative,99.53124782569597
+P00747,58,Male,Hypertension,DrugC,421,16,35.822629555740036,Fatigue,Heart Disease,MarkerA,Positive,75.01972380981036
+P00748,55,Female,None,DrugA,64,53,15.874053627111628,Nausea,Breast Cancer,MarkerD,Negative,57.261446991829814
+P00749,35,Male,Diabetes,DrugA,117,59,91.2781270175043,Fatigue,Diabetes,MarkerA,Positive,60.96657598652121
+P00750,55,Female,None,DrugC,306,34,79.04363398451638,None,Heart Disease,MarkerB,Positive,81.21016179961929
+P00751,22,Female,Cancer,DrugA,473,49,26.64560677671971,Dizziness,Breast Cancer,MarkerA,Negative,96.30067849740192
+P00752,49,Male,Hypertension,DrugA,81,23,75.16102669461392,Nausea,Diabetes,MarkerD,Positive,58.244945853695675
+P00753,77,Female,Cancer,DrugD,350,23,66.57894602958847,Dizziness,Breast Cancer,MarkerC,Positive,56.748463756738275
+P00754,41,Female,None,DrugB,375,54,48.92891077854055,Dizziness,Diabetes,MarkerC,Positive,54.98883676155346
+P00755,76,Male,None,DrugB,243,5,41.21671503748223,Dizziness,Heart Disease,MarkerB,Negative,81.8790230037634
+P00756,57,Female,Cancer,DrugB,82,17,36.736818829406225,Fatigue,Lung Cancer,MarkerA,Positive,53.332128392756175
+P00757,47,Female,Hypertension,DrugA,371,17,65.69787862889844,None,Lung Cancer,MarkerC,Positive,85.39607667001047
+P00758,80,Male,None,DrugD,208,51,18.365458512099796,Nausea,Breast Cancer,MarkerC,Negative,75.02492064389395
+P00759,55,Female,Hypertension,DrugD,308,53,72.84097197446575,Nausea,Lung Cancer,MarkerA,Positive,82.96606586729959
+P00760,76,Female,None,DrugB,457,48,84.2825949908971,Fatigue,Diabetes,MarkerD,Positive,92.45798548278646
+P00761,27,Male,Hypertension,DrugA,217,22,99.17242009135501,None,Lung Cancer,MarkerB,Negative,67.16157484350701
+P00762,36,Female,Diabetes,DrugA,128,24,86.3125397754121,Fatigue,Breast Cancer,MarkerB,Negative,88.64317817806176
+P00763,76,Male,None,DrugD,444,55,41.1488534336759,None,Heart Disease,MarkerD,Positive,85.87206413987195
+P00764,51,Male,None,DrugB,435,50,33.93002880835646,Nausea,Diabetes,MarkerA,Negative,69.64708012816554
+P00765,38,Female,Diabetes,DrugC,479,40,77.4655520093413,None,Diabetes,MarkerC,Positive,50.50189328743899
+P00766,60,Male,None,DrugC,286,26,4.023219354852725,Fatigue,Breast Cancer,MarkerB,Negative,87.8909809514548
+P00767,41,Female,None,DrugB,261,30,93.96223530763218,None,Breast Cancer,MarkerC,Positive,77.3232214873211
+P00768,47,Female,Hypertension,DrugB,185,52,67.38157082630602,Dizziness,Diabetes,MarkerC,Positive,80.7481285275032
+P00769,53,Male,None,DrugC,341,53,23.73121227680035,None,Lung Cancer,MarkerA,Negative,74.97150499051844
+P00770,73,Male,None,DrugB,183,57,24.18888352880768,Fatigue,Lung Cancer,MarkerD,Negative,94.49585265631914
+P00771,50,Female,None,DrugC,83,51,54.77590672100885,None,Heart Disease,MarkerA,Positive,77.85001199331083
+P00772,71,Female,Hypertension,DrugA,77,37,67.73029708774185,Fatigue,Diabetes,MarkerD,Negative,80.66595771956975
+P00773,24,Female,None,DrugA,399,52,68.01267772375579,Dizziness,Heart Disease,MarkerD,Negative,97.80365375850582
+P00774,64,Male,None,DrugA,61,52,50.154970875709026,Dizziness,Diabetes,MarkerA,Positive,91.15948997467004
+P00775,32,Male,Diabetes,DrugC,175,23,10.915139649439865,Dizziness,Breast Cancer,MarkerC,Negative,73.0023145847014
+P00776,89,Male,Hypertension,DrugD,460,21,36.35864660681847,Fatigue,Breast Cancer,MarkerD,Positive,89.3878987399448
+P00777,46,Female,Hypertension,DrugD,175,46,58.163942145924544,Fatigue,Lung Cancer,MarkerC,Positive,83.52969330597426
+P00778,42,Male,Hypertension,DrugB,437,12,96.84303103019452,Nausea,Lung Cancer,MarkerC,Negative,63.87368448108586
+P00779,44,Female,Cancer,DrugC,217,35,82.86447924003959,Nausea,Breast Cancer,MarkerD,Positive,58.76109143947572
+P00780,81,Female,Diabetes,DrugD,138,48,77.63395359323408,None,Lung Cancer,MarkerA,Positive,53.49628546467111
+P00781,26,Female,None,DrugC,195,30,18.51746967963326,Fatigue,Heart Disease,MarkerC,Positive,68.88196459760715
+P00782,77,Male,Hypertension,DrugD,311,13,97.90146070864922,Dizziness,Diabetes,MarkerA,Negative,96.87689502105798
+P00783,41,Male,None,DrugD,293,7,78.19990807907826,Dizziness,Lung Cancer,MarkerC,Negative,68.62991731074027
+P00784,80,Female,Hypertension,DrugB,161,58,49.78140427538862,Dizziness,Diabetes,MarkerC,Negative,95.11139946489372
+P00785,87,Male,Diabetes,DrugA,382,43,19.192171124269752,Dizziness,Lung Cancer,MarkerD,Negative,65.68578921665888
+P00786,20,Female,Hypertension,DrugB,197,19,71.02494641559925,None,Breast Cancer,MarkerB,Positive,83.11338226932531
+P00787,77,Male,Diabetes,DrugC,353,32,65.4181660913734,Fatigue,Heart Disease,MarkerC,Positive,88.36065589157747
+P00788,58,Female,Cancer,DrugD,321,39,89.43934549563954,Dizziness,Diabetes,MarkerA,Negative,65.27485158914926
+P00789,75,Male,Hypertension,DrugA,97,39,99.21960433033364,Fatigue,Breast Cancer,MarkerA,Positive,87.35929830390103
+P00790,70,Female,Hypertension,DrugA,79,33,69.80650129526254,None,Lung Cancer,MarkerD,Negative,70.07059966604794
+P00791,24,Female,Cancer,DrugB,231,39,36.35931438522421,Fatigue,Breast Cancer,MarkerC,Positive,56.157917094677586
+P00792,60,Male,Hypertension,DrugD,372,5,30.853849848240866,Fatigue,Diabetes,MarkerB,Negative,61.58213264864615
+P00793,31,Female,None,DrugC,247,29,95.34083792891427,None,Heart Disease,MarkerD,Negative,60.13044156907701
+P00794,46,Female,Hypertension,DrugD,462,23,54.62066078503466,Dizziness,Heart Disease,MarkerD,Positive,98.81215068629325
+P00795,22,Female,Diabetes,DrugA,280,44,56.19906718593295,None,Breast Cancer,MarkerD,Negative,86.20199363182815
+P00796,46,Male,Diabetes,DrugD,243,50,50.39627076661923,Fatigue,Lung Cancer,MarkerB,Negative,64.61854467220638
+P00797,30,Male,None,DrugB,76,26,47.65297176146442,Nausea,Heart Disease,MarkerC,Negative,81.68218640232898
+P00798,84,Male,Diabetes,DrugB,255,30,25.820649229197844,None,Heart Disease,MarkerA,Positive,54.91088532451418
+P00799,59,Male,Cancer,DrugB,144,52,92.59752743130831,Fatigue,Heart Disease,MarkerC,Negative,52.962618520529816
+P00800,67,Female,None,DrugC,464,58,56.10599721707354,Fatigue,Diabetes,MarkerB,Negative,86.00977797734078
+P00801,62,Male,None,DrugC,276,8,1.127975198205522,Nausea,Heart Disease,MarkerC,Positive,75.36478402591379
+P00802,37,Female,Cancer,DrugA,423,17,94.07244983733989,Dizziness,Lung Cancer,MarkerB,Negative,92.5656428116146
+P00803,85,Female,None,DrugD,461,21,75.57943891813176,Nausea,Heart Disease,MarkerD,Positive,82.61369447794505
+P00804,19,Male,None,DrugD,218,55,36.23365621724116,Nausea,Lung Cancer,MarkerD,Negative,58.058543326687264
+P00805,56,Male,Hypertension,DrugB,134,40,72.01992766949434,None,Heart Disease,MarkerC,Negative,70.07954147165745
+P00806,59,Male,None,DrugD,495,25,41.94146516943454,Nausea,Heart Disease,MarkerA,Positive,83.11034067172687
+P00807,64,Male,Diabetes,DrugD,445,10,0.27619319550897803,Nausea,Breast Cancer,MarkerD,Negative,63.4114369948716
+P00808,35,Male,Diabetes,DrugB,439,31,32.94862828735169,None,Heart Disease,MarkerA,Negative,61.84147118357858
+P00809,84,Male,Diabetes,DrugD,72,44,24.551337055492738,None,Diabetes,MarkerC,Negative,88.06677383407447
+P00810,32,Female,Diabetes,DrugA,196,49,80.5864020597568,Fatigue,Heart Disease,MarkerD,Positive,59.69984133409733
+P00811,33,Male,None,DrugC,165,51,68.10905115675605,Fatigue,Diabetes,MarkerC,Positive,80.74068456398047
+P00812,27,Male,None,DrugC,320,54,27.61910506761427,None,Diabetes,MarkerA,Positive,50.50474831575251
+P00813,57,Female,Hypertension,DrugC,283,31,86.23190689161618,Dizziness,Diabetes,MarkerD,Positive,79.26410750456452
+P00814,64,Male,Diabetes,DrugD,123,19,40.53178105927265,Dizziness,Diabetes,MarkerC,Negative,99.66294665818737
+P00815,43,Male,Hypertension,DrugD,432,40,86.69245219939621,None,Lung Cancer,MarkerD,Positive,54.50220052931286
+P00816,44,Female,Diabetes,DrugD,477,29,71.50730067055115,Fatigue,Lung Cancer,MarkerD,Negative,91.00064983930517
+P00817,19,Male,Cancer,DrugC,287,16,72.00567747884045,Dizziness,Breast Cancer,MarkerA,Positive,59.728192358585055
+P00818,55,Female,None,DrugA,64,8,43.42397373458354,Nausea,Lung Cancer,MarkerA,Positive,64.89545045524719
+P00819,43,Female,None,DrugC,87,8,82.03648543252675,Fatigue,Diabetes,MarkerD,Negative,94.49302189558664
+P00820,50,Female,None,DrugD,395,45,68.36778037308743,Fatigue,Lung Cancer,MarkerD,Negative,96.37912526454969
+P00821,18,Female,Hypertension,DrugD,181,23,62.53929265189567,Dizziness,Breast Cancer,MarkerA,Negative,79.6737977942998
+P00822,50,Male,Hypertension,DrugB,54,11,97.4272257766399,Dizziness,Lung Cancer,MarkerC,Negative,68.05248174709463
+P00823,39,Female,Cancer,DrugC,353,57,97.2688244408492,None,Breast Cancer,MarkerA,Positive,82.9525504426012
+P00824,59,Female,Hypertension,DrugC,443,53,28.840663831151748,None,Lung Cancer,MarkerD,Positive,65.06551974485653
+P00825,67,Female,Diabetes,DrugC,71,24,99.49584808450102,Nausea,Diabetes,MarkerB,Positive,64.87469671617797
+P00826,54,Male,Hypertension,DrugC,60,21,35.21100537318096,None,Diabetes,MarkerB,Negative,88.75218837416172
+P00827,25,Male,Diabetes,DrugC,245,11,16.18455142307309,Fatigue,Breast Cancer,MarkerC,Positive,92.2300918175832
+P00828,61,Female,Diabetes,DrugC,454,22,27.003078333318133,Fatigue,Heart Disease,MarkerA,Positive,90.32742981515628
+P00829,42,Male,None,DrugD,233,15,19.40297010548435,Dizziness,Diabetes,MarkerA,Negative,76.66462827428784
+P00830,63,Male,Diabetes,DrugA,82,51,75.76441073582424,Nausea,Heart Disease,MarkerC,Positive,80.31602672898543
+P00831,61,Female,Diabetes,DrugB,152,31,35.858409669080935,Nausea,Heart Disease,MarkerA,Negative,55.06734484802357
+P00832,34,Male,Cancer,DrugB,182,26,52.60276329049851,None,Heart Disease,MarkerC,Positive,77.69679695188451
+P00833,60,Male,None,DrugD,136,56,82.65769078514832,None,Heart Disease,MarkerA,Negative,52.39473377628477
+P00834,73,Female,Cancer,DrugC,367,7,70.40051691386157,Fatigue,Breast Cancer,MarkerD,Positive,78.4854599807193
+P00835,44,Male,Hypertension,DrugC,482,9,31.587633263306692,Dizziness,Breast Cancer,MarkerA,Negative,98.54466708548762
+P00836,48,Male,Cancer,DrugC,121,34,34.89139436863316,None,Lung Cancer,MarkerB,Negative,57.40748540654448
+P00837,26,Female,Hypertension,DrugD,312,53,19.50286902359235,None,Diabetes,MarkerA,Negative,99.52701230454163
+P00838,55,Female,Diabetes,DrugC,106,19,41.49091452917545,Fatigue,Heart Disease,MarkerA,Negative,55.34068412883086
+P00839,23,Male,None,DrugD,413,27,74.38742977615595,Fatigue,Diabetes,MarkerD,Negative,91.11000756817128
+P00840,81,Male,Hypertension,DrugC,153,43,26.52660002492019,None,Lung Cancer,MarkerD,Positive,64.67293238312199
+P00841,58,Female,Cancer,DrugB,261,49,93.19841905092152,Nausea,Heart Disease,MarkerB,Positive,58.719582430657226
+P00842,81,Female,Hypertension,DrugD,485,42,58.00919746856249,Fatigue,Lung Cancer,MarkerB,Negative,57.729822716863545
+P00843,89,Female,Hypertension,DrugC,272,13,76.85189694865305,Dizziness,Breast Cancer,MarkerD,Positive,88.97165759683213
+P00844,43,Male,Hypertension,DrugD,410,36,62.297834777781894,Dizziness,Heart Disease,MarkerB,Negative,87.16551818311079
+P00845,80,Female,Hypertension,DrugB,267,10,13.147701320322202,None,Diabetes,MarkerA,Positive,88.67123414220733
+P00846,67,Female,Hypertension,DrugC,130,52,67.42408952829086,Fatigue,Lung Cancer,MarkerB,Negative,67.34227820696321
+P00847,34,Male,Cancer,DrugD,467,5,15.550070139464466,None,Diabetes,MarkerD,Positive,62.34152585989116
+P00848,53,Male,Cancer,DrugD,197,6,15.10001308520852,Dizziness,Breast Cancer,MarkerB,Negative,58.834437503602665
+P00849,34,Male,None,DrugB,345,52,3.1978542788100306,Fatigue,Breast Cancer,MarkerA,Positive,83.89434544048002
+P00850,45,Male,Cancer,DrugC,349,20,51.568544162853854,None,Breast Cancer,MarkerC,Negative,52.4232293182066
+P00851,62,Female,None,DrugD,146,54,69.18638972541711,Fatigue,Heart Disease,MarkerC,Negative,62.177442692560945
+P00852,32,Male,Hypertension,DrugD,480,37,2.6626741994571157,None,Breast Cancer,MarkerD,Positive,78.8438335461015
+P00853,79,Male,Diabetes,DrugD,431,26,31.159069100201542,Dizziness,Heart Disease,MarkerD,Negative,85.53956176052918
+P00854,88,Male,Cancer,DrugC,264,45,99.5806979689447,Nausea,Diabetes,MarkerB,Positive,54.78638432989326
+P00855,53,Female,Diabetes,DrugB,435,31,73.37295446161784,Fatigue,Heart Disease,MarkerC,Positive,68.8677371074329
+P00856,36,Male,Diabetes,DrugC,420,43,51.89898408848964,Nausea,Diabetes,MarkerC,Positive,96.84338670104731
+P00857,33,Female,Diabetes,DrugC,211,49,86.9158458171428,None,Breast Cancer,MarkerB,Negative,56.79423512972282
+P00858,41,Male,Cancer,DrugB,257,35,66.44079208684124,Dizziness,Diabetes,MarkerD,Positive,55.7018220385142
+P00859,56,Male,Diabetes,DrugD,188,39,24.14232287898327,Fatigue,Lung Cancer,MarkerC,Negative,82.631551441662
+P00860,39,Female,None,DrugB,78,48,95.66348097705318,Dizziness,Lung Cancer,MarkerA,Positive,95.0842285133391
+P00861,23,Female,Cancer,DrugC,462,14,88.42254351751426,None,Breast Cancer,MarkerD,Positive,95.03833912129083
+P00862,56,Female,Cancer,DrugB,467,34,16.906634541546506,Dizziness,Heart Disease,MarkerC,Positive,73.23106540318054
+P00863,82,Female,Diabetes,DrugA,188,25,31.25827141664841,Fatigue,Lung Cancer,MarkerD,Positive,91.97440576234368
+P00864,78,Male,None,DrugB,193,44,83.01985994815917,Nausea,Heart Disease,MarkerC,Negative,91.28440978748208
+P00865,47,Female,None,DrugA,328,44,28.489832226330456,Dizziness,Breast Cancer,MarkerB,Positive,64.81549788866624
+P00866,26,Male,Cancer,DrugB,169,45,43.120363511216866,Fatigue,Diabetes,MarkerD,Positive,59.45641710347552
+P00867,64,Female,Hypertension,DrugA,133,15,51.069498510958375,None,Breast Cancer,MarkerB,Negative,51.14535613530542
+P00868,44,Female,Cancer,DrugB,146,41,34.10512338407704,None,Lung Cancer,MarkerB,Negative,94.59797544400118
+P00869,37,Male,Hypertension,DrugA,224,49,21.688695825790717,Nausea,Lung Cancer,MarkerB,Negative,59.14890236693843
+P00870,58,Male,Diabetes,DrugB,252,53,59.84614736363545,Dizziness,Diabetes,MarkerB,Positive,79.1271397392267
+P00871,70,Female,None,DrugD,377,32,79.90041010459265,Fatigue,Lung Cancer,MarkerD,Positive,61.629539418774186
+P00872,86,Male,Cancer,DrugD,155,25,59.60443207509445,Nausea,Lung Cancer,MarkerB,Negative,67.33425979666613
+P00873,22,Male,Diabetes,DrugC,124,11,72.36575216107107,Dizziness,Heart Disease,MarkerC,Negative,85.05069836734941
+P00874,59,Female,None,DrugA,161,28,12.63733703648352,None,Diabetes,MarkerA,Negative,96.60397881115696
+P00875,44,Male,Hypertension,DrugC,177,53,18.80400138554719,Nausea,Heart Disease,MarkerB,Negative,94.87914908639786
+P00876,30,Male,None,DrugA,153,9,3.0673331261311,Dizziness,Lung Cancer,MarkerA,Positive,93.39587584680223
+P00877,87,Female,None,DrugC,278,12,51.39278210608467,Nausea,Diabetes,MarkerD,Positive,65.54769824104756
+P00878,82,Female,Diabetes,DrugB,100,41,1.6639337047436364,None,Lung Cancer,MarkerB,Positive,76.4985405037736
+P00879,85,Female,Cancer,DrugC,348,41,73.69917858492974,Fatigue,Diabetes,MarkerD,Negative,84.86374404650077
+P00880,43,Female,Diabetes,DrugB,209,15,69.8052541179599,Nausea,Breast Cancer,MarkerA,Negative,58.188849315774675
+P00881,64,Female,Diabetes,DrugC,282,42,71.32816281552154,None,Lung Cancer,MarkerB,Negative,81.8314457052494
+P00882,58,Female,Hypertension,DrugA,457,28,95.87004207153875,Dizziness,Breast Cancer,MarkerA,Positive,93.26333863406359
+P00883,42,Female,Hypertension,DrugC,113,55,13.409781351329164,None,Breast Cancer,MarkerB,Negative,77.59564643836416
+P00884,88,Female,None,DrugB,332,34,21.511109174868125,Nausea,Breast Cancer,MarkerD,Positive,82.53645701725966
+P00885,51,Male,Hypertension,DrugB,360,14,38.04517799076594,Dizziness,Lung Cancer,MarkerB,Positive,55.142784614713406
+P00886,82,Female,Cancer,DrugC,231,54,56.616250447515306,Nausea,Lung Cancer,MarkerD,Positive,60.26425024816105
+P00887,22,Male,Diabetes,DrugB,432,59,25.59239969724272,Fatigue,Diabetes,MarkerD,Negative,97.66324625311024
+P00888,65,Male,Hypertension,DrugA,270,18,36.608352468730374,Fatigue,Diabetes,MarkerB,Positive,79.4169137141028
+P00889,42,Female,Hypertension,DrugB,477,38,24.593347611177073,Fatigue,Diabetes,MarkerD,Positive,78.11024120886684
+P00890,87,Female,Cancer,DrugB,77,38,64.92940764226518,None,Breast Cancer,MarkerD,Negative,68.61682066002382
+P00891,18,Female,None,DrugD,261,55,35.474229678610136,Nausea,Lung Cancer,MarkerB,Positive,90.26863389741764
+P00892,40,Male,None,DrugA,282,7,72.64287153561628,Dizziness,Heart Disease,MarkerB,Positive,71.05033458560672
+P00893,62,Male,Diabetes,DrugC,222,59,57.85144278435954,Dizziness,Breast Cancer,MarkerB,Negative,50.79756356436375
+P00894,22,Female,Hypertension,DrugC,395,44,67.0577828960516,None,Heart Disease,MarkerB,Positive,64.72239702281243
+P00895,87,Female,Hypertension,DrugA,271,16,30.51865530324982,Nausea,Lung Cancer,MarkerD,Negative,87.974560304488
+P00896,81,Female,Cancer,DrugA,184,47,66.00144788679032,Dizziness,Diabetes,MarkerC,Positive,55.0236471020338
+P00897,83,Female,None,DrugC,370,25,37.84402201159073,Dizziness,Heart Disease,MarkerA,Positive,55.48401220037041
+P00898,24,Female,Diabetes,DrugC,404,31,40.9980809435611,Dizziness,Lung Cancer,MarkerD,Negative,92.88019284350811
+P00899,79,Female,Cancer,DrugC,156,26,41.91540974339987,None,Diabetes,MarkerA,Negative,55.28280401234481
+P00900,41,Male,Hypertension,DrugA,369,9,35.94790589985529,Dizziness,Breast Cancer,MarkerC,Negative,63.25490161189192
+P00901,81,Female,None,DrugD,225,35,90.38734109240124,Dizziness,Breast Cancer,MarkerB,Positive,57.23483019253019
+P00902,29,Female,Cancer,DrugA,329,17,31.189435495757767,Dizziness,Diabetes,MarkerC,Negative,58.011669463771256
+P00903,66,Female,None,DrugA,134,11,87.75311190096284,Nausea,Diabetes,MarkerD,Positive,92.69419104071713
+P00904,60,Male,Cancer,DrugA,106,10,7.5284099057052245,Nausea,Lung Cancer,MarkerA,Positive,61.14878904644115
+P00905,63,Female,None,DrugB,97,37,56.40546442218167,Fatigue,Breast Cancer,MarkerA,Positive,96.56388281264829
+P00906,62,Male,Diabetes,DrugD,385,40,66.95058574734368,Fatigue,Breast Cancer,MarkerD,Positive,65.50077407240718
+P00907,68,Female,Cancer,DrugC,67,58,53.39004974415843,Fatigue,Diabetes,MarkerC,Positive,74.53913353905752
+P00908,63,Female,Cancer,DrugC,418,26,16.34965676422976,None,Diabetes,MarkerD,Positive,84.37915757372777
+P00909,42,Female,Hypertension,DrugC,478,32,64.13892450677056,Fatigue,Heart Disease,MarkerA,Negative,97.16342754433836
+P00910,69,Male,Cancer,DrugA,242,34,95.94698307964242,Fatigue,Heart Disease,MarkerA,Negative,76.77480427794734
+P00911,74,Male,Hypertension,DrugB,250,14,4.837870076079776,Dizziness,Breast Cancer,MarkerB,Positive,82.96388825770492
+P00912,42,Male,Cancer,DrugD,218,22,22.100331138881625,Dizziness,Diabetes,MarkerA,Negative,56.93875477355123
+P00913,41,Male,None,DrugA,466,27,99.71359122581394,Dizziness,Heart Disease,MarkerA,Negative,52.72487888229184
+P00914,63,Male,Hypertension,DrugD,337,39,29.997246348076278,Nausea,Diabetes,MarkerD,Negative,92.75077908288375
+P00915,49,Female,Diabetes,DrugC,473,12,57.03559909548623,Dizziness,Heart Disease,MarkerA,Negative,96.47209970471317
+P00916,60,Male,Diabetes,DrugC,196,44,68.33659118089332,Fatigue,Heart Disease,MarkerA,Negative,63.78607325595918
+P00917,48,Male,Hypertension,DrugA,420,41,35.18357637936308,Fatigue,Lung Cancer,MarkerA,Positive,80.45278767715926
+P00918,33,Female,Hypertension,DrugA,184,39,13.917137096615484,Dizziness,Breast Cancer,MarkerA,Positive,95.30595877898472
+P00919,89,Female,Diabetes,DrugA,457,33,59.02683830251624,None,Lung Cancer,MarkerA,Positive,56.64966079474561
+P00920,51,Male,None,DrugB,160,9,86.99874043848149,Fatigue,Lung Cancer,MarkerD,Negative,63.09772031526141
+P00921,60,Female,Hypertension,DrugA,320,26,52.550216413914775,Dizziness,Heart Disease,MarkerC,Positive,99.03905192080623
+P00922,83,Male,Cancer,DrugB,152,28,69.69879782062216,Dizziness,Heart Disease,MarkerC,Positive,59.67033865783253
+P00923,69,Male,Diabetes,DrugC,450,15,31.22177672044455,Fatigue,Breast Cancer,MarkerA,Negative,75.82684199514406
+P00924,89,Female,Cancer,DrugD,230,19,43.84158735560932,None,Diabetes,MarkerB,Negative,94.29313919791551
+P00925,43,Male,None,DrugB,102,22,96.10864303152282,Dizziness,Heart Disease,MarkerB,Negative,61.06773708816125
+P00926,62,Male,None,DrugB,439,13,49.31114037027907,Fatigue,Heart Disease,MarkerD,Positive,82.05570704890755
+P00927,22,Male,Hypertension,DrugD,267,44,44.49303535572133,None,Breast Cancer,MarkerA,Positive,60.03375935432751
+P00928,73,Female,Cancer,DrugD,345,25,35.66743635672497,Fatigue,Heart Disease,MarkerD,Positive,50.02834237321264
+P00929,49,Female,Hypertension,DrugC,143,49,35.74388275401581,Nausea,Heart Disease,MarkerD,Negative,54.11655345168735
+P00930,28,Male,Hypertension,DrugD,404,16,74.75151876133755,None,Heart Disease,MarkerB,Negative,78.10046274891475
+P00931,76,Female,None,DrugB,200,55,86.29776460178444,Fatigue,Heart Disease,MarkerC,Negative,56.71554471844709
+P00932,58,Male,None,DrugC,112,14,43.98293381687343,None,Breast Cancer,MarkerD,Positive,59.50609678790839
+P00933,58,Female,Hypertension,DrugD,301,31,2.2872218284706647,Fatigue,Breast Cancer,MarkerA,Positive,62.2551094545105
+P00934,76,Female,Hypertension,DrugA,234,45,56.33875247989486,Nausea,Lung Cancer,MarkerC,Negative,65.07991058736017
+P00935,89,Female,Hypertension,DrugA,77,44,91.44346418324994,None,Diabetes,MarkerA,Negative,84.92831057723961
+P00936,67,Male,None,DrugA,271,12,81.0552120830022,Nausea,Breast Cancer,MarkerD,Negative,91.73181296723375
+P00937,56,Female,Cancer,DrugA,464,35,86.59446391502543,None,Diabetes,MarkerB,Negative,71.23378422578034
+P00938,55,Male,Hypertension,DrugD,399,51,5.135586836237438,Nausea,Heart Disease,MarkerD,Positive,92.64606751972622
+P00939,60,Female,Cancer,DrugA,449,33,94.02259490279296,None,Breast Cancer,MarkerC,Positive,71.224815135993
+P00940,31,Female,Hypertension,DrugB,333,36,83.34539271557088,Dizziness,Lung Cancer,MarkerB,Negative,63.28043073598578
+P00941,47,Female,Hypertension,DrugD,400,27,94.01394361392116,None,Diabetes,MarkerC,Negative,66.1214420685077
+P00942,47,Male,Diabetes,DrugD,172,55,84.76810934947581,None,Heart Disease,MarkerA,Positive,80.06094351305283
+P00943,49,Male,Diabetes,DrugC,86,44,15.13973429535158,Dizziness,Breast Cancer,MarkerC,Negative,85.62929978735673
+P00944,59,Male,None,DrugD,200,55,67.19207128446763,Nausea,Diabetes,MarkerD,Negative,66.50176446424923
+P00945,63,Male,Cancer,DrugA,485,19,82.14914894383658,Dizziness,Breast Cancer,MarkerC,Negative,55.41970996621868
+P00946,34,Male,Hypertension,DrugC,171,33,70.92733576160363,Nausea,Lung Cancer,MarkerC,Positive,86.42689880458893
+P00947,18,Male,None,DrugD,156,50,27.987705191924796,Dizziness,Lung Cancer,MarkerA,Positive,64.83251515264973
+P00948,34,Female,Cancer,DrugC,342,26,90.05370434654307,Nausea,Breast Cancer,MarkerC,Negative,57.96314379944597
+P00949,53,Male,Hypertension,DrugA,417,36,53.02720769118082,Fatigue,Diabetes,MarkerD,Positive,50.78233315149032
+P00950,36,Male,Diabetes,DrugA,442,18,1.5367705607374105,None,Lung Cancer,MarkerA,Negative,50.08942865777313
+P00951,43,Female,Cancer,DrugD,444,37,5.2341399963526385,Nausea,Lung Cancer,MarkerA,Negative,75.03261025095384
+P00952,89,Male,Diabetes,DrugB,86,27,42.32222487360788,Fatigue,Breast Cancer,MarkerD,Positive,98.04973151913771
+P00953,53,Female,None,DrugC,239,58,15.455214105686398,Dizziness,Breast Cancer,MarkerD,Negative,53.90603164433577
+P00954,70,Female,None,DrugB,497,41,32.129540570992376,None,Lung Cancer,MarkerC,Negative,92.82126019836085
+P00955,20,Male,None,DrugD,326,22,45.043105035391626,Fatigue,Heart Disease,MarkerB,Negative,72.7769825571336
+P00956,50,Male,Diabetes,DrugA,481,23,90.62569933769079,Fatigue,Breast Cancer,MarkerB,Negative,65.31918338878405
+P00957,79,Female,Cancer,DrugC,369,52,91.52152369518326,Fatigue,Diabetes,MarkerC,Positive,68.96713283525077
+P00958,53,Male,Cancer,DrugC,412,59,70.98821756923435,Dizziness,Breast Cancer,MarkerB,Negative,59.57784916491431
+P00959,87,Female,None,DrugC,201,30,3.104354998939063,Dizziness,Breast Cancer,MarkerC,Negative,98.33697524623292
+P00960,49,Male,None,DrugA,162,51,19.814889115947576,Fatigue,Diabetes,MarkerC,Negative,55.40169793315409
+P00961,47,Female,None,DrugA,249,23,59.46521682133314,Dizziness,Heart Disease,MarkerD,Negative,55.486664600137864
+P00962,77,Female,Cancer,DrugC,126,59,18.005196195070628,Fatigue,Breast Cancer,MarkerD,Negative,92.33195696783483
+P00963,26,Female,None,DrugC,410,35,20.84114052231153,Fatigue,Breast Cancer,MarkerA,Positive,76.85322018709783
+P00964,81,Female,Cancer,DrugB,234,20,81.98506021664267,Dizziness,Breast Cancer,MarkerA,Negative,74.77377013212651
+P00965,89,Male,None,DrugD,382,37,1.2949870735896818,None,Lung Cancer,MarkerB,Negative,66.36610383227416
+P00966,51,Male,Hypertension,DrugC,330,29,86.24120304344581,Nausea,Diabetes,MarkerB,Negative,51.332200442737516
+P00967,62,Female,Diabetes,DrugC,340,40,66.93593567534812,Fatigue,Diabetes,MarkerB,Negative,52.99071457704118
+P00968,30,Male,Cancer,DrugC,168,44,97.34502480310427,Fatigue,Diabetes,MarkerB,Negative,78.27312123545242
+P00969,48,Male,Cancer,DrugC,134,6,54.95515982798656,None,Diabetes,MarkerA,Positive,60.204060093059965
+P00970,63,Male,Hypertension,DrugA,278,52,19.190216504046898,Nausea,Breast Cancer,MarkerB,Positive,51.290450435193904
+P00971,64,Female,Diabetes,DrugA,336,37,98.16728951032067,Nausea,Breast Cancer,MarkerA,Positive,73.63656863922955
+P00972,62,Male,Cancer,DrugB,270,37,22.556212352165073,None,Diabetes,MarkerD,Negative,66.3371278460556
+P00973,42,Male,Cancer,DrugC,50,46,54.33220424679699,Dizziness,Diabetes,MarkerA,Positive,86.32098429980145
+P00974,86,Female,Diabetes,DrugA,423,41,44.881251164701766,Fatigue,Heart Disease,MarkerD,Negative,56.206793527510605
+P00975,88,Male,None,DrugB,339,10,82.55991540244098,Nausea,Breast Cancer,MarkerD,Positive,81.69142370867947
+P00976,30,Female,Diabetes,DrugC,493,41,34.641231101166994,Dizziness,Lung Cancer,MarkerD,Negative,69.54795464188352
+P00977,57,Female,Cancer,DrugC,455,10,46.612073620161155,Nausea,Lung Cancer,MarkerA,Negative,82.50831097734792
+P00978,30,Male,Diabetes,DrugA,67,54,93.39206305810319,None,Heart Disease,MarkerA,Negative,99.06527006946644
+P00979,18,Male,Diabetes,DrugA,198,48,19.40200360562544,Nausea,Breast Cancer,MarkerD,Negative,72.87261411523309
+P00980,33,Female,Diabetes,DrugD,434,24,49.05006317450604,None,Lung Cancer,MarkerA,Positive,75.27954342901012
+P00981,67,Male,Cancer,DrugA,54,27,26.065310138453945,None,Diabetes,MarkerA,Negative,98.07756178751823
+P00982,78,Female,Hypertension,DrugB,349,41,19.415092752101625,None,Breast Cancer,MarkerB,Negative,64.53481210911437
+P00983,18,Male,Hypertension,DrugD,254,46,3.6436616683611756,Dizziness,Diabetes,MarkerD,Negative,90.34114051866248
+P00984,84,Female,None,DrugC,304,47,25.983887469389856,Fatigue,Heart Disease,MarkerD,Positive,70.91902336764393
+P00985,86,Female,Cancer,DrugD,438,29,54.281497972837165,None,Heart Disease,MarkerC,Positive,63.057214056895575
+P00986,47,Female,Hypertension,DrugD,194,59,6.086138702344412,None,Breast Cancer,MarkerC,Positive,57.49210044220372
+P00987,25,Female,None,DrugB,381,51,86.67321516686111,Fatigue,Diabetes,MarkerB,Negative,81.42071417979962
+P00988,60,Female,Diabetes,DrugD,131,57,95.7376832093645,Fatigue,Diabetes,MarkerA,Positive,67.1421151472102
+P00989,29,Male,Hypertension,DrugA,185,39,49.698387833486905,Nausea,Diabetes,MarkerA,Negative,88.72172925089345
+P00990,53,Male,None,DrugD,479,19,29.730366486920513,Dizziness,Breast Cancer,MarkerC,Negative,78.81200114183511
+P00991,66,Female,Cancer,DrugC,91,16,82.74266787181323,None,Lung Cancer,MarkerB,Negative,61.13579204832088
+P00992,68,Male,Cancer,DrugC,376,30,90.11298116653131,None,Heart Disease,MarkerC,Positive,98.12308808638886
+P00993,83,Male,Hypertension,DrugB,397,58,55.89336788456612,Fatigue,Breast Cancer,MarkerA,Negative,89.26302398581375
+P00994,86,Male,Cancer,DrugD,72,57,0.1086418681183865,Dizziness,Lung Cancer,MarkerB,Negative,56.30799927349592
+P00995,86,Female,Hypertension,DrugC,123,37,76.73296634484707,Nausea,Breast Cancer,MarkerB,Positive,91.344746287071
+P00996,61,Male,Cancer,DrugC,57,40,56.85141766593227,Fatigue,Lung Cancer,MarkerA,Negative,95.05912232315376
+P00997,32,Male,None,DrugC,167,53,42.91336602462628,Fatigue,Breast Cancer,MarkerB,Negative,87.25531694990232
+P00998,50,Female,Diabetes,DrugD,153,59,51.75604099261347,Nausea,Diabetes,MarkerC,Negative,76.33698691886333
+P00999,38,Male,Hypertension,DrugA,376,50,65.00741032796854,Fatigue,Lung Cancer,MarkerC,Positive,83.65832683082186
+P01000,60,Male,Diabetes,DrugA,349,22,13.42879978202366,Fatigue,Lung Cancer,MarkerC,Negative,99.82543046439508

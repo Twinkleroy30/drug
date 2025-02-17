@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Drug</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <div class="top_contact-container">
+          <div class="tel_container">
+            <a href="">
+              <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
+            </a>
+          </div>
+          <div class="social-container">
+            <a href="">
+              <img src="{% static 'images/fb.png' %}" alt="" class="s-1">
+            </a>
+            <a href="">
+              <img src="{% static 'images/twitter.png' %}" alt="" class="s-2">
+            </a>
+            <a href="">
+              <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="{% url 'index' %}">
+            <img src="{% static 'images/logo.png' %}" alt="">
+            <span>
+              Drug
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="{% url 'index' %}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'about' %}"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'medicine' %}"> Medicine </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'adminlogin' %}"> admin </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'userlogin' %}"> user</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'contact' %}">Contact us</a>
+                </li>
+              </ul>
+              <form class="form-inline ">
+                {% csrf_token %}
+                <input type="search" placeholder="Search">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+              <div class="login_btn-contanier ml-0 ml-lg-5">
+                <a href="">
+                  <img src="{% static 'images/user.png' %}" alt="">
+                  <span>
+                    Login
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="container-fluid py-5">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                  <div class="bg-light rounded p-5">
+                      <h3 class="mb-4 text-center">Admin Login</h3>
+                      <form action="" method="POST">
+                          {% csrf_token %}
+                          <div class="mb-3">
+                            <label for="username" class="form-label">username</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Enter admin username" required>
+                          </div>
+                          <div class="form-group mb-4">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                          </div>
+                          <div class="text-center">
+                              <button type="submit" class="btn btn-primary btn-block" style="background-color: #10e7f4;">Login</button>
+                          </div>
+                        
+                        
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Admin Login Form End -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section" style="margin-top:100px;">
+    <p>
+      &copy; 2024 All Rights Reserved. Design by
+      <a href="https://html">rgtech.projects@gmal.com</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+  </script>
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: [],
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

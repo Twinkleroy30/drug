@@ -1,0 +1,177 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Drug</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700|Roboto:400,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <div class="top_contact-container">
+          <div class="tel_container">
+            <a href="">
+              <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
+            </a>
+          </div>
+          <div class="social-container">
+            <a href="">
+              <img src="{% static 'images/fb.png' %}" alt="" class="s-1">
+            </a>
+            <a href="">
+              <img src="{% static 'images/twitter.png' %}" alt="" class="s-2">
+            </a>
+            <a href="">
+              <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="{% url 'index' %}">
+            <img src="{% static 'images/logo.png' %}" alt="">
+            <span>
+              Drug
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto p-4 p-lg-0">
+                            <a href="{% url 'adashboard' %}" class="nav-item nav-link">Dashboard</a>
+                          
+                            <a href="{% url 'upload' %}" class="nav-item nav-link">Upload Dataset</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Model</a>
+                                <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                                    <a href="{% url 'cnn' %}" class="dropdown-item">Generate CNN</a>
+                                    
+                                </div>
+                            </div>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'index' %}">Logout</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline ">
+                    <input type="search" placeholder="Search">
+                    <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                  </form>
+                  <div class="login_btn-contanier ml-0 ml-lg-5">
+                    <a href="">
+                      <img src="{% static 'images/user.png' %}" alt="">
+                      <span>
+                        Login
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+    
+            </nav>
+          </div>
+        </header>
+
+    <div class="container mt-4">
+        <div class="row" style="margin-top: 190px;">
+            <!-- Upload Dataset Card -->
+            <div class="col-md-12">
+                <div class="card text-center mb-4">
+                    <div class="card-header " style="background-color: #3dd8ec">
+                        <h5>Upload Dataset</h5>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" action="" enctype="multipart/form-data">
+                            {% csrf_token %}
+                        <p class="card-text">Upload and manage your datasets for model training.</p>
+                        <input type="file" class="form-control" id="fileInput" webkitdirectory multiple /> <br>
+
+                        <button type="submit" class="custom-button">Upload Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section" style="margin-top: 10px;">
+    <p>
+      &copy; 2024 All Rights Reserved. Design by
+      <a href="https://html">rgtech.projects@gmal.com</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  
+  <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+  </script>
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      navText: [],
+      autoplay: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
