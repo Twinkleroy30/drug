@@ -36,16 +36,16 @@ app = Flask(__name__)
 
 
 # load databasedataset===================================
-sym_des = pd.read_csv(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\symtoms_df.csv")
-precautions = pd.read_csv(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\precautions_df.csv")
-workout = pd.read_csv(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\workout_df.csv")
-description = pd.read_csv(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\description.csv")
-medications = pd.read_csv(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\medications.csv")
-diets = pd.read_csv(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\diets.csv")
+sym_des = pd.read_csv(r"symtoms_df.csv")
+precautions = pd.read_csv(r"precautions_df.csv")
+workout = pd.read_csv(r"workout_df.csv")
+description = pd.read_csv(r"description.csv")
+medications = pd.read_csv(r"medications.csv")
+diets = pd.read_csv(r"diets.csv")
 
 
 # load model===========================================
-svc = pickle.load(open(r"C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\svc.pkl",'rb'))
+svc = pickle.load(open(r"svc.pkl",'rb'))
 
 
 #============================================================
@@ -90,7 +90,7 @@ from flask import render_template
 @app.route("/")
 def index():
      
-    return render_template(r'C:\Users\TWINKLE ROY\Downloads\Medicine-Recommendation-System-Personalized-Medical-Recommendation-System-with-Machine-Learning\index.html')
+    return render_template(r'index.html')
 # Define a route for the home page
 @app.route('/predict', methods=['GET', 'POST'])
 def home():
