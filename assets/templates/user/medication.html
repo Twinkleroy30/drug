@@ -102,29 +102,30 @@
     
 
 <div class="container mt-5">
-    <h2 class="mb-4">Recommended Medications</h2>
+    <h2 class="mb-4">Personalised Medications</h2>
     <form action="{% url 'predict' %}" method="post">
         {% csrf_token %}
         <div class="form-group">
-            <label for="symptoms">Select Symptoms:</label>
+            <b><label for="symptoms">Select Symptoms:</label></b>
             <input type="text" class="form-control", id="symptoms" name="symptoms" placeholder="type symptoms such as itching, sleeping, aching etc">
 
         </div>
-        {% comment %} <br>
+         <br>
         <!-- Display the transcribed text here -->
         <div name="mysysms" id="transcription"></div>
 
         {% if message %}
         <p>{{ message }}</p>
         {% endif %}
-        <br> {% endcomment %}
+        
 
         <button type="submit" class="btn btn-danger btn-lg" style="width: 100%; padding: 14px; margin-bottom: 5px;">Predict</button>
     </form>
 </div>
-<p>{{predicted_disease}}</p>
-<p>{{dis_des}}</p>
-<p>{{dis_pre}}</p>
+<br>
+<p style="font-size: 24px; font-weight: bold;">{{predicted_disease}}</p>
+ <br>
+ <br>
   
 {% if predicted_disease %}
         <div class="card">
@@ -156,7 +157,7 @@
                 <h5 class="modal-title" id="diseaseModalLabel">Predicted Disease</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body" style="background-color:  #ff0000;">;"> <!-- Set modal body background color inline -->
+            <div class="modal-body" style="background-color:rgb(227, 213, 213);"> <!-- Set modal body background color inline -->
                 <p>{{ predicted_disease }}</p>
             </div>
         </div>

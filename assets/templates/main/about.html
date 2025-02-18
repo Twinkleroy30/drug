@@ -42,20 +42,7 @@
       <div class="container">
         <div class="top_contact-container">
           <div class="tel_container">
-            <a href="">
-              <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
-            </a>
-          </div>
-          <div class="social-container">
-            <a href="">
-              <img src="{% static 'images/fb.png' %}" alt="" class="s-1">
-            </a>
-            <a href="">
-              <img src="{% static 'images/twitter.png' %}" alt="" class="s-2">
-            </a>
-            <a href="">
-              <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
-            </a>
+           z
           </div>
         </div>
       </div>
@@ -84,8 +71,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'medicine' %}"> Medicine </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="{% url 'buy' %}"> Online Buy </a>
+                {% comment %} <li class="nav-item">
+                  <a class="nav-link" href="{% url 'buy' %}"> Online Buy </a> {% endcomment %}
                 {% comment %} </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'news' %}"> News </a>
@@ -126,21 +113,49 @@
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <div class="img-box">
+                {% comment %} <div class="img-box">
                   <img src="{% static 'images/medicine.png' %}" alt="">
-                </div>
+                </div> {% endcomment %}
               </div>
               <div class="col-md-8">
                 <div class="detail-box">
                   <h1>
-                    Welcome <br>
+                    <br>
                     <span>
                       ABOUT US
                     </span>
 
                   </h1>
                   <p>
-                     
+                    <p>
+                      <p style="text-align: left;">
+                      <b style="font-size: 1.5em;">Drug Discovery and Personalized Medicine</b>
+                      <br>
+                      <br>
+                      <br><p style="text-align: left;">
+                      Our project explores innovative drug discovery and personalized medicine, aiming to create tailored treatments for safer and more effective healthcare solutions. We focus on integrating advanced technologies and research methodologies to revolutionize patient care.  
+                      <br></p><br>
+                      <p style="text-align: left;">
+                      <b>Lead By :</b><br>
+                      <p style="text-align: left;">
+                        Hema Reddy                (21A31A4424)<br>
+                        Dara Twinkle Roy          (21A31A4406)<br>
+                        Gutti Devi Veera Prasanna (21A31A4411)<br>
+                        Sai Pavan Rama Krishna    (22A35A4401)<br>
+                        Chikkala William Naveen   (22A35A4402)<br>
+                      </p>
+                      </p>
+                    </p>
+                      {% comment %} <div class="d-flex justify-content-center">
+                      <button style="background-color:rgb(222, 230, 230); color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Read More</button>
+                    </div>  
+                   </div> {% endcomment %}
+                </div>
+                <div class="col-md-4 text-right">
+                  <div class="img-box">
+                    <img src="{% static 'images/about-medicine.png' %}" alt="">
+                  </div>
+                </div> 
                   </p>
                   
                 </div>
@@ -152,7 +167,7 @@
         </section>
 
 
-  <!-- about section -->
+  {% comment %} <!-- about section -->
   <section class="about_section layout_padding">
     <div class="container">
       <div class="custom_heading-container ">
@@ -176,8 +191,8 @@
           </a>
         </div>
       </div>
-    </div>
-  </section>
+    </div> {% endcomment %}
+  {% comment %} </section> {% endcomment %}
 
 
 

@@ -41,7 +41,7 @@
     <header class="header_section">
       <div class="container">
         <div class="top_contact-container">
-          <div class="tel_container">
+          {% comment %} <div class="tel_container">
             <a href="">
               <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
             </a>
@@ -56,7 +56,7 @@
             <a href="">
               <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
             </a>
-          </div>
+          </div> {% endcomment %}
         </div>
       </div>
       <div class="container-fluid">
@@ -140,14 +140,11 @@
 
                     </h1>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected humour, or randomised words which don't look even slightly
-                      believable.
-                    </p>
+                      Revolutionizing healthcare with cutting-edge drug discovery and tailored treatments. Our advanced system identifies the most effective medicines based on individual needs, ensuring precise and personalized care. Experience the future of medicine with innovative solutions designed just for you!                    </p>
                     <div>
-                      <a href="">
+                      {% comment %} <a href="">
                         
-                      </a>
+                      </a> {% endcomment %}
                     </div>
                   </div>
                 </div>
@@ -172,14 +169,12 @@
 
                     </h1>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected humour, or randomised words which don't look even slightly
-                      believable.
+                      Experience healthcare designed just for you. Our advanced systems create precise and effective solutions tailored to your unique needs, ensuring accurate and personalized care. Discover the future of medicine today!
                     </p>
-                    <div>
+                    {% comment %} <div>
                       <a href="">
                         
-                      </a>
+                      </a> {% endcomment %}
                     </div>
                   </div>
                 </div>
@@ -204,15 +199,13 @@
 
                     </h1>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected humour, or randomised words which don't look even slightly
-                      believable.
+                      Discover a new era of healthcare tailored just for you. Our advanced solutions provide customized treatments designed to meet your unique needs, ensuring effective and precise care. Experience the future of medicine today!
                     </p>
-                    <div>
+                    {% comment %} <div>
                       <a href="">
                         
                       </a>
-                    </div>
+                    </div> {% endcomment %}
                   </div>
                 </div>
               </div>
@@ -296,8 +289,7 @@
               Fast Delivery
             </h5>
             <p>
-              It is a long established fact that a reader will be distracted by
-            </p>
+              Get life-changing medications faster with our streamlined drug discovery process, ensuring timely and effective treatments.            </p>
           </div>
         </div>
         <div class="box">
@@ -329,8 +321,7 @@
               license of government
             </h5>
             <p>
-              It is a long established fact that a reader will be distracted by
-            </p>
+              Our solutions comply with the highest standards, backed by government certifications for safety and reliability.            </p>
           </div>
         </div>
         <div class="box">
@@ -418,10 +409,11 @@
           </div>
           <div class="detail-box">
             <h5>
-              support24/7
+              24/7 Support
             </h5>
             <p>
-              It is a long established fact that a reader will be distracted by
+              Access dedicated support anytime, anywhere. Your health and queries are our top priority.
+
             </p>
           </div>
         </div>
@@ -448,12 +440,9 @@
 
             </h2>
             <p>
-              It is a long established fact that a reader will be distracted by
-            </p>
+              Don't miss out on the best deals for your health. Shop now and save on essential medications tailored to your needs.            </p>
             <div>
-              <a href="">
-                Buy Now
-              </a>
+              <button style="background-color: #00d1d1; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Buy Now</button>
             </div>
           </div>
         </div>
@@ -890,41 +879,61 @@
 
   <!-- end health section -->
 
-  <!-- about section -->
+  {% comment %} <!-- about section -->
   <section class="about_section layout_padding">
     <div class="container">
       <div class="custom_heading-container ">
         <h2>
-          About Us
+          About Us<br>
         </h2>
+        <br>
+        <br>
       </div>
-
-      <div class="img-box">
-        <img src="{% static 'images/about-medicine.png' %}" alt="">
-      </div>
+      <div class="row">
+        <div class="col-md-8">
       <div class="detail-box">
         <p>
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking
-          at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-          opposed to using 'Content here, content here', making it
-        </p>
-        <div class="d-flex justify-content-center">
-          <a href="">
-            Read More
-          </a>
+              <p style="text-align: right;">
+              <b style="font-size: 1.5em;">Drug Discovery and Personalized Medicine</b>
+              <br>
+              <br>
+              <br><p style="text-align: left;">
+              Our project explores innovative drug discovery and personalized medicine, aiming to create tailored treatments for safer and more effective healthcare solutions. We focus on integrating advanced technologies and research methodologies to revolutionize patient care.  
+              <br></p><br>
+              <p style="text-align: left;">
+              <b>Lead By :</b><br>
+              <p style="text-align: left;">
+                Hema Reddy                (21A31A4424)<br>
+                Dara Twinkle Roy          (21A31A4406)<br>
+                Gutti Devi Veera Prasanna (21A31A4411)<br>
+                Sai Pavan Rama Krishna    (22A35A4401)<br>
+                Chikkala William Naveen   (22A35A4402)<br>
+              </p>
+              </p>
+            </p>
+            {% comment %} <div class="d-flex justify-content-center">
+              <button style="background-color: #00d1d1; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Read More</button>
+            </div> {% endcomment %}
+          {% comment %} </div>
         </div>
+        <div class="col-md-4 text-right">
+          <div class="img-box">
+            <img src="{% static 'images/about-medicine.png' %}" alt="">
+          </div>
+    </div>
       </div>
     </div>
   </section>
 
-  <!-- end about section -->
+  <!-- end about section --> {% endcomment %} {% endcomment %}
 
   <!-- client section -->
   <section class="client_section layout_padding">
     <div class="container">
       <div class="custom_heading-container ">
         <h2>
-          What is says our clients
+          WHAT OUR PEERS SAY
+
         </h2>
       </div>
       <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
@@ -937,31 +946,49 @@
           <div class="carousel-item active">
             <div class="client_container layout_padding2">
               <div class="client_detail">
-                <p>
-                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in
-                  some form, by injected humour, or randomised words which don't look even slightly believable.
-                </p>
+                <p>"This project on Drug Discovery and Personalized Medicine is truly groundbreaking. It showcases a deep understanding of modern healthcare challenges."</p>
+
               </div>
               <div class="client_box ">
                 <div class="img-box">
                   <img src="{% static 'images/client.png' %} " alt="">
                 </div>
                 <div class="name">
-                  <h5>
+                  {% comment %} <h5>
                     Randomised
-                  </h5>
+                  </h5> {% endcomment %}
                   <h6>
-                    <span>
-                      Client
-                    </span>
-                    <img src="{% static 'images/quote.png' %}" alt="">
+                    <span>4th Year B.Tech AIML</span>
+                    {% comment %} <img src="{% static 'images/quote.png' %}" alt=""> {% endcomment %}
                   </h6>
                 </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
+            <div class="client_container layout_padding2">
+              <div class="client_detail">
+                <p>"Impressive teamwork and innovation! The project is not only informative but also offers real-world applications in medical research."</p>
+
+              </div>
+              <div class="client_box ">
+                <div class="img-box">
+                  <img src="{% static 'images/client.png' %} " alt="">
+                </div>
+                <div class="name">
+                  {% comment %} <h5>
+                    Randomised
+                  </h5> {% endcomment %}
+                  <h6>
+                    <span>3rd Year B.Tech Computer Science</span>
+
+                    {% comment %} <img src="{% static 'images/quote.png' %}" alt=""> {% endcomment %}
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% comment %} <div class="carousel-item">
             <div class="client_container layout_padding2">
               <div class="client_detail">
                 <p>
@@ -985,34 +1012,7 @@
                     <img src="{% static 'images/quote.png' %}" alt="">
                   </h6>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="client_container layout_padding2">
-              <div class="client_detail">
-                <p>
-                  There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                  alteration in
-                  some form, by injected humour, or randomised words which don't look even slightly believable.
-                </p>
-              </div>
-              <div class="client_box ">
-                <div class="img-box">
-                  <img src="{% static 'images/client.png' %} " alt="">
-                </div>
-                <div class="name">
-                  <h5>
-                    Randomised
-                  </h5>
-                  <h6>
-                    <span>
-                      Client
-                    </span>
-                    <img src="{% static 'images/quote.png' %}" alt="">
-                  </h6>
-                </div>
-              </div>
+              </div> {% endcomment %}
             </div>
           </div>
         </div>
@@ -1075,8 +1075,9 @@
               Get Now Medicines
             </h3>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable.
+            
+ 
+Discover medicines tailored to your unique genetic profile. Experience more effective treatments with reduced side effects, all customized just for you.
             </p>
           </div>
         </div>
@@ -1101,7 +1102,7 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  +91 8500221170
+                  +91 6281767262
                 </h6>
               </div>
             </div>
@@ -1111,7 +1112,7 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  rgtech.projects@gmal.com
+                  twinkleroy7225@gmail.com
                 </h6>
               </div>
             </div>
@@ -1129,9 +1130,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'about' %}"> About </a>
               </li>
-              <li class="nav-item">
+              {% comment %} <li class="nav-item">
                 <a class="nav-link" href="{% url 'medicine' %}"> Medicine </a>
-              </li>
+              </li> {% endcomment %}
               <li class="nav-item">
                 <a class="nav-link" href="buy' %}> Online Buy </a>
               </li>
@@ -1164,7 +1165,7 @@
   <section class="container-fluid footer_section">
     <p>
       &copy; 2024 All Rights Reserved. Design by
-      <a href="https://html">rgtech.projects@gmal.com</a>
+      <a href="https://html">twinkleroy7225@gmail.com</a>
     </p>
   </section>
   <!-- footer section -->
