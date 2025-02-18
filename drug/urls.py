@@ -41,5 +41,5 @@ urlpatterns = [
     path('udashboard/', u.udashboard, name='udashboard'),
     path('prediction/', u.prediction, name='prediction'),
     path('medication/', u.medication, name='medication'),
-    path('predict/', u.predict, name='predict'),
+    path('predict/', u.predict, name='predict')
 ]
