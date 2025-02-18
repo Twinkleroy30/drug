@@ -142,14 +142,14 @@ def udashboard(req):
 import joblib
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import load_model
+
 from sklearn.preprocessing import LabelEncoder
 from django.shortcuts import render
 import pandas as pd
 
 
 # Load model, scaler, and feature names
-model = load_model("cnn_drug_discovery_model.h5")
+model = tf.keras.models.load_model("cnn_drug_discovery_model.h5")
 scaler = joblib.load("scalers.pkl")
 expected_features = joblib.load("feature_names.pkl")  # Load expected feature names
 print("Model, scaler, and feature names loaded successfully!")
