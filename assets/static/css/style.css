@@ -151,7 +151,7 @@ a:focus {
 }
 
 .navbar-brand,
-.navbar-brand:hover {
+navbar-brand:hover {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
@@ -295,7 +295,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev,
-.slider_section .carousel-control-next {
+slider_section .carousel-control-next {
   position: absolute;
   left: 2.5%;
   width: 45px;
@@ -312,7 +312,7 @@ a:focus {
 }
 
 .slider_section .carousel-control-prev:hover,
-.slider_section .carousel-control-next:hover {
+slider_section .carousel-control-next:hover {
   background-color: #ffffff;
   width: 55px;
   height: 55px;
@@ -584,7 +584,7 @@ a:focus {
   background-color: #10e7f4;
 }
 
-.health_section .owl-carousel .owl-nav.disabled .owl-prev {
+.health_section .owl-carousel .owl-nav.disabled .owl-pprev {
   background-image: url(../images/prev.png);
   right: 95px;
 }
@@ -762,7 +762,7 @@ a:focus {
   color: #121313;
 }
 
-.contact_section .detail-box {
+.contact_section .detail_box {
   background-image: url(../images/contact-bg.jpg);
   color: #ffffff;
   padding: 140px 15%;
@@ -770,12 +770,12 @@ a:focus {
   margin-top: 30px;
 }
 
-.contact_section .detail-box h3 {
+.contact_section .detail_box h3 {
   font-weight: bold;
   font-size: 32px;
 }
 
-.contact_section .detail-box p {
+.contact_section .detail_box p {
   margin-top: 25px;
 }
 
@@ -796,11 +796,11 @@ a:focus {
   display: flex;
 }
 
-.info_section .info_contact .box .img-box {
+.info_section .info_contact .box .img_box {
   margin-right: 15px;
 }
 
-.info_section .info_contact .box .img-box img {
+.info_section .info_contact .box .img_box img {
   width: 25px;
 }
 
