@@ -100,16 +100,15 @@
     <div class="container-fluid py-5">
       <div class="container">
           <div class="row justify-content-center">
-              <div class="col-lg-12">
+              <div class="col-lg-10">
                   <div class="bg-light rounded p-5">
 
                     <h3 class="md-4 text-center">Drug Effectiveness Prediction</h2>
                       <form method="POST">
                           {% csrf_token %}
-
-                          <div class="mb-3">{% quote %}
-                            <label for="Age" class="form-label">Age:</label>{% endquote %}
-                            <input class="form-control" type="number" name="Age" value="38" placeholder="Enter Age of a Patient" required/></form>
+                          <div class="mb-3">
+                            <label for="Age" class="form-label">Age:</label>
+                            <input class="form-control" type="number" name="Age" value="38" placeholder="Enter Age of a Patient" required/>
                           </div>
                           <div class="mb-3">
                             <label>Gender:</label>
@@ -130,10 +129,10 @@
                           <div class="mb-3">
                             <label>Drug Name:</label>
                             <select class="form-control" name="Drug_Name">
-                                <option value="DrugA" selected>Drug A</option>
-                                <option value="DrugB">Drug B</option>
-                                <option value="DrugC">Drug C</option>
-                                <option value="DrugD">Drug D</option>
+                              <option value="DrugA" selected>Drug A</option>
+                              <option value="DrugB">Drug B</option>
+                              <option value="DrugC">Drug C</option>
+                              <option value="DrugD">Drug D</option>
                             </select>
                           </div>
                           <div class="mb-3">
@@ -144,55 +143,55 @@
                             <label>Treatment Duration (days):</label>
                             <input class="form-control" type="number" name="Treatment_Duration_days" value="30" required>
                           </div>
-                          <div class="mb-3">
-                            <label>Effectiveness (%):</label>
-                            <input type="number" step="0.1" name="Effectiveness_%" value="90" required>
+                          <div class="mb-3">                          <label>Effectiveness (%):</label>
+                            <input class="form-control" type="number" step="0.1" name="Effectiveness_%" value="90" required>
                           </div>
                           <div class="mb-3">
                             <label>Side Effects:</label>
-                            <select name="Side_Effects">
+                            <select  class="form-control" name="Side_Effects">
                                 <option value="None">None</option>
                                 <option value="Nausea">Nausea</option>
                                 <option value="Dizziness" selected>Dizziness</option>
                                 <option value="Fatigue">Fatigue</option>
                             </select>
                           </div>
-                          <div class="mb-3">                          
+                          <div class="mb-3">
                             <label>Disease Type:</label>
-                            <select name="Disease_Type">
+                            <select  class="form-control" name="Disease_Type">
                                 <option value="Lung Cancer">Lung Cancer</option>
                                 <option value="Breast Cancer">Breast Cancer</option>
                                 <option value="Diabetes" selected>Diabetes</option>
                                 <option value="Heart Disease">Heart Disease</option>
                             </select>
                           </div>
-                            
-                          <label>Genetic Marker:</label>
-                          <select name="Genetic_Marker">
-                              <option value="MarkerA" selected>Marker A</option>
-                              <option value="MarkerB">Marker B</option>
-                              <option value="MarkerC">Marker C</option>
-                              <option value="MarkerD">Marker D</option>
-                          </select>
-                          <br><br>
-                          <button type="submit">Predict</button>
+                          <div class="mb-3">
+                            <label>Genetic Marker:</label>
+                            <select class="form-control" name="Genetic_Marker">
+                                <option value="MarkerA" selected>Marker A</option>
+                                <option value="MarkerB">Marker B</option>
+                                <option value="MarkerC">Marker C</option>
+                                <option value="MarkerD">Marker D</option>
+                            </select>
+                          </div>
+                          <div class="mb-3">
+                            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+                          </div>
                       </form>
                       {% if prediction_text %}
                           <div class="result">
                               <p>{{ prediction_text }}</p>
                           </div>
 
-                          <button onclick="window.location.href='{% url 'medication' %}'" class="btn btn-primary">
-                            View Medications
-                          </button>
+                          <a href="{% url 'medication' %}" class="btn btn-primary btn-block">View Medications</a>
                         
                       {% endif %}
                   </div>
               </div>
           </div>
       </div>
-      </div>
-  </div>
+      
+      
+    </div>
                       
                     
                     
