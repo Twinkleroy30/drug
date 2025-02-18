@@ -20,6 +20,7 @@ from mains import views as m
 from admins import views as v
 from users import views as u
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -40,5 +41,5 @@ urlpatterns = [
     path('udashboard/', u.udashboard, name='udashboard'),
     path('prediction/', u.prediction, name='prediction'),
     path('medication/', u.medication, name='medication'),
-    path('predict/', u.medication, name='predict'),
+    path('predict/', u.predict, name='predict'),
 ]

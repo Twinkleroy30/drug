@@ -273,7 +273,7 @@ def get_predicted_value(patient_symptoms):
 
 def predict(request):
     if request.method == 'POST':
-        symptoms = request.form.get('symptoms')
+        symptoms = request.POST.get('symptoms')
         # mysysms = request.form.get('mysysms')
         # print(mysysms)
         print(symptoms)
@@ -297,6 +297,6 @@ def predict(request):
                                    my_precautions=my_precautions, medications=medications, my_diet=rec_diet,
                                    workout=workout)
 
-    return render('medication.html')
+    return render('drug/medication.html')
 
 

@@ -103,7 +103,7 @@
 
 <div class="container mt-5">
     <h2 class="mb-4">Recommended Medications</h2>
-    <form action="/predict" method="post">
+    <form action="{% url 'predict' %}" method="post">
         {% csrf_token %}
         <div class="form-group">
             <label for="symptoms">Select Symptoms:</label>
