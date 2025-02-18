@@ -40,11 +40,12 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
+        {% comment %}
         <div class="top_contact-container">
           <div class="tel_container">
-           z
+           
           </div>
-        </div>
+        </div>{% endcomment %}
       </div>
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
@@ -101,23 +102,21 @@
     </header>
     <!-- end header section -->
   <!-- slider section -->
-  <section class=" slider_section position-relative">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+  <section class="about_section layout_padding">
+          
+      <div class="container mt-5 mb-5">
+        
           <div class="container">
             <div class="row">
-              <div class="col-md-4">
-                {% comment %} <div class="img-box">
-                  <img src="{% static 'images/medicine.png' %}" alt="">
-                </div> {% endcomment %}
+              <div class="col-md-5">
+                <div class="img-box mt-5">
+                  <img src="{% static 'images/about-medicine.png' %}" alt="">
+                </div> 
+
               </div>
-              <div class="col-md-8">
+              <div class="col-md-7">
+                
+
                 <div class="detail-box">
                   <h1>
                     <br>
@@ -151,20 +150,13 @@
                     </div>  
                    </div> {% endcomment %}
                 </div>
-                <div class="col-md-4 text-right">
-                  <div class="img-box">
-                    <img src="{% static 'images/about-medicine.png' %}" alt="">
-                  </div>
-                </div> 
-                  </p>
-                  
-                </div>
+                                
               </div>
             </div>
           </div>
-        </div>
-        </div>
-        </section>
+      </div>  
+    
+  </section>
 
 
   {% comment %} <!-- about section -->
@@ -202,56 +194,14 @@
   <section class="container-fluid footer_section">
     <p>
       &copy; 2024 All Rights Reserved. Design by
-      <a href="https://html">rgtech.projects@gmal.com</a>
+      <a href="mailto:twinkleroy7225@gmail.com">Twinkleroy7225</a>
     </p>
   </section>
   <!-- footer section -->
 
   <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
-  </script>
-  <script type="text/javascript">
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [],
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 4
-        }
-      }
-    });
-  </script>
-  <script type="text/javascript">
-    $(".owl-2").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [],
-      autoplay: true,
-
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 4
-        }
-      }
-    });
-  </script>
+  
 </body>
 
 </html>

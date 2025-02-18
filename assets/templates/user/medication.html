@@ -33,6 +33,10 @@
             color: #333;
         }
 
+        .modal {
+            top: 100px;
+        }
+
   </style>
 </head>
 
@@ -40,62 +44,62 @@
     <div class="hero_area">
         <!-- header section starts -->
         <header class="header_section">
-        <div class="container-fluid justify-content-center">
-            <div class="top_contact-container">
-            <div class="tel_container">
-                <a href="tel:+011234567890">
-                <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
-                </a>
-            </div>
-            <div class="social-container">
-                <a href="">
-                <img src="{% static 'images/fb.png' %}" alt="" class="s-1">
-                </a>
-                <a href="">
-                <img src="{% static 'images/twitter.png' %}" alt="" class="s-2">
-                </a>
-                <a href="">
-                <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
-                </a>
-            </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-            <a class="navbar-brand" href="{% url 'index' %}">
-                <img src="{% static 'images/logo.png' %}" alt="">
-                <span>Drug</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="d-flex flex-column flex-lg-row align-items-center w-100 justify-content-between">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                    <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <a href="{% url 'udashboard' %}" class="nav-item nav-link active">User Dashboard</a>
-                        <a href="{% url 'prediction' %}" class="nav-item nav-link">Prediction</a>
-                        <a href="#" class="nav-item nav-link">Medication</a>
-                        <a href="{% url 'index' %}" class="nav-item nav-link">Logout</a>
+            <div class="container-fluid justify-content-center">{% comment %}
+                <div class="top_contact-container">
+                    <div class="tel_container">
+                        <a href="tel:+011234567890">
+                        <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
+                        </a>
                     </div>
-                    </li>
-                </ul>
-                <form class="form-inline">
-                    <input type="search" placeholder="Search" class="form-control">
-                    <button class="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                </form>
-                <div class="login_btn-container ml-0 ml-lg-5">
-                    <a href="">
-                    <img src="{% static 'images/user.png' %}" alt="">
-                    <span>welcome {{ user.username }}</span>
-                    </a>
-                </div>
-                </div>
+                    <div class="social-container">
+                        <a href="">
+                        <img src="{% static 'images/fb.png' %}" alt="" class="s-1">
+                        </a>
+                        <a href="">
+                        <img src="{% static 'images/twitter.png' %}" alt="" class="s-2">
+                        </a>
+                        <a href="">
+                        <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
+                        </a>
+                    </div>
+                </div>{% endcomment %}
             </div>
-            </nav>
-        </div>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+                <a class="navbar-brand" href="{% url 'index' %}">
+                    <img src="{% static 'images/logo.png' %}" alt="">
+                    <span>Drug</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-flex flex-column flex-lg-row align-items-center w-100 justify-content-between">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <div class="navbar-nav ms-auto p-4 p-lg-0">
+                            <a href="{% url 'udashboard' %}" class="nav-item nav-link active">User Dashboard</a>
+                            <a href="{% url 'prediction' %}" class="nav-item nav-link">Prediction</a>
+                            <a href="#" class="nav-item nav-link">Medication</a>
+                            <a href="{% url 'index' %}" class="nav-item nav-link">Logout</a>
+                        </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input type="search" placeholder="Search" class="form-control">
+                        <button class="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                    </form>
+                    <div class="login_btn-container ml-0 ml-lg-5">
+                        <a href="">
+                        <img src="{% static 'images/user.png' %}" alt="">
+                        <span>welcome {{ user.username }}</span>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                </nav>
+            </div>
         </header>
         <!-- end header section -->
 
@@ -260,7 +264,7 @@
     <section class="container-fluid footer_section mt-5">
       <p>
         &copy; 2024 All Rights Reserved. Design by
-        <a href="mailto:rgtech.projects@gmail.com">rgtech.projects@gmail.com</a>
+        <a href="mailto:twinkleroy7225@gmail.com">Twinkleroy7225</a>
       </p>
     </section>
     <!-- footer section -->

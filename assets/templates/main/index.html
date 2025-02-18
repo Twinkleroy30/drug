@@ -33,6 +33,18 @@
   <link href="{% static 'css/style.css' %}" rel="stylesheet" />
   <!-- responsive style -->
   <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+
+ <style>
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: #212529;
+}
+</style>
+
 </head>
 
 <body>
@@ -40,8 +52,8 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
-        <div class="top_contact-container">
-          {% comment %} <div class="tel_container">
+        {% comment %}<div class="top_contact-container">
+           <div class="tel_container">
             <a href="">
               <img src="{% static 'images/telephone-symbol-button.png' %}" alt=""> Call : +01 1234567890
             </a>
@@ -56,11 +68,11 @@
             <a href="">
               <img src="{% static 'images/instagram.png' %}" alt="" class="s-3">
             </a>
-          </div> {% endcomment %}
-        </div>
+          </div>
+        </div> {% endcomment %}
       </div>
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3 fixed-top">
           <a class="navbar-brand" href="{% url 'index' %}">
             <img src="{% static 'images/logo.png' %}" alt="">
             <span>
@@ -925,7 +937,7 @@
     </div>
   </section>
 
-  <!-- end about section --> {% endcomment %} {% endcomment %}
+  <!-- end about section --> {% endcomment %} 
 
   <!-- client section -->
   <section class="client_section layout_padding">
@@ -1087,88 +1099,7 @@ Discover medicines tailored to your unique genetic profile. Experience more effe
 
   <!-- end contact section -->
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="info_contact">
-            <h4>
-              Contact
-            </h4>
-            <div class="box">
-              <div class="img-box">
-                <img src="{% static 'images/telephone-symbol-button.png' %}" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  +91 6281767262
-                </h6>
-              </div>
-            </div>
-            <div class="box">
-              <div class="img-box">
-                <img src="{% static 'images/email.png' %}" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  twinkleroy7225@gmail.com
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="info_menu">
-            <h4>
-              Menu
-            </h4>
-            <ul class="navbar-nav  ">
-              <li class="nav-item active">
-                <a class="nav-link" href="{% url 'index' %}">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'about' %}"> About </a>
-              </li>
-              {% comment %} <li class="nav-item">
-                <a class="nav-link" href="{% url 'medicine' %}"> Medicine </a>
-              </li> {% endcomment %}
-              <li class="nav-item">
-                <a class="nav-link" href="buy' %}> Online Buy </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="info_news">
-            <h4>
-              newsletter
-            </h4>
-            <form action="">
-              <input type="text" placeholder="Enter Your email">
-              <div class="d-flex justify-content-center justify-content-end mt-3">
-                <button>
-                  Subscribe
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- end info section -->
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2024 All Rights Reserved. Design by
-      <a href="https://html">twinkleroy7225@gmail.com</a>
-    </p>
-  </section>
-  <!-- footer section -->
+{% include "footer.html" %}
 
   <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
